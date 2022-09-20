@@ -8,7 +8,6 @@ namespace yakov.ThreadPool
 {
     public interface IThreadPool
     {
-        void AddTask(Action newTask);
-
+        void EnqueueTask(Action newTask);
     }
 }
