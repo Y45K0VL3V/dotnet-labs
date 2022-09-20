@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace yakov.ThreadPool
 {
-    internal class ThreadPool
+    public interface IThreadPool
     {
+        void AddTask(Action newTask);
+
     }
 }
