@@ -34,8 +34,14 @@ namespace yakov.ThreadPool
         private void TaskCallback()
         {
             var currentThread = Thread.CurrentThread;
-            _threads.Remove(currentThread);
-            currentThread.Abort();
+            try
+            {
+                ThreadAbort(currentThread, isExeptionThrow: true);
+            }
+            finally
+            {
+                _threads.Remove(currentThread);
+            }
         }
 
         private Thread _taskListener;
@@ -45,14 +51,49 @@ namespace yakov.ThreadPool
             {
                 if (_tasks.TryDequeue(out Action? currentTask))
                 {
-                    
+                    while (_threads.Count >= MaxThreadsCount) { }
+                    AddActionThread(currentTask);
                 }
             }
         }
 
+        private void ThreadAbort(Thread thread, bool isExeptionThrow)
+        {
+            try
+            {
+                thread.Abort();
+            }
+            catch (PlatformNotSupportedException)
+            { }
+            catch
+            {
+                if (isExeptionThrow)
+                    throw;
+            }
+        }
+
+        private bool _disposed = false;
+
         public void Dispose()
         {
-            throw new NotImplementedException();
+            Dispose(disposing: true);
+            GC.SuppressFinalize(this);
+        }
+
+        private void Dispose(bool disposing)
+        {
+            if (_disposed)
+                return;
+
+            if (disposing)
+            {
+                ThreadAbort(_taskListener, isExeptionThrow: false);
+
+                foreach (var thread in _threads)
+                    ThreadAbort(thread, isExeptionThrow: false);
+            }
+
+            _disposed = true;
         }
     }
 }

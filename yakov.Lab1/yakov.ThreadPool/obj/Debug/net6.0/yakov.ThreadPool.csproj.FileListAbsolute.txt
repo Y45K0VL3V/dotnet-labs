@@ -1,0 +1,12 @@
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\bin\Debug\net6.0\yakov.ThreadPool.deps.json
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\bin\Debug\net6.0\yakov.ThreadPool.dll
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\bin\Debug\net6.0\yakov.ThreadPool.pdb
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.csproj.AssemblyReference.cache
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.AssemblyInfoInputs.cache
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.AssemblyInfo.cs
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.csproj.CoreCompileInputs.cache
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.dll
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\refint\yakov.ThreadPool.dll
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.pdb
+C:\Учёба\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\ref\yakov.ThreadPool.dll
