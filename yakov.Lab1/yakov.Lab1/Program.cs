@@ -6,7 +6,9 @@ for (int i = 0; i < 50; i++)
     threadPool.EnqueueTask(Write);
 
 threadPool.Dispose();
+Thread.Sleep(15000);
 Console.ReadLine();
+
 
 void Write()
 {

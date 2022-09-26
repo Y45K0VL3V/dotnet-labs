@@ -34,13 +34,10 @@ namespace yakov.ThreadPool
         private void TaskCallback()
         {
             var currentThread = Thread.CurrentThread;
-            try
+            lock (_threads)
             {
-                ThreadAbort(currentThread, isExeptionThrow: true);
-            }
-            finally
-            {
-                _threads.Remove(currentThread);
+                if (_threads.Contains(currentThread))
+                    _threads.Remove(currentThread);
             }
         }
 
@@ -89,8 +86,14 @@ namespace yakov.ThreadPool
             {
                 ThreadAbort(_taskListener, isExeptionThrow: false);
 
-                foreach (var thread in _threads)
-                    ThreadAbort(thread, isExeptionThrow: false);
+                lock (_threads)
+                {
+                    foreach (var thread in _threads)
+                        ThreadAbort(thread, isExeptionThrow: false);
+                }
+
+                _tasks.Clear();
+                _threads.Clear();
             }
 
             _disposed = true;
