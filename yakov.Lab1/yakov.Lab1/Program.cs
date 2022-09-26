@@ -1,16 +1,27 @@
-﻿using System.Transactions;
+﻿using yakov.Lab1.Directory;
+using yakov.Lab1.Directory.Validator;
 using yakov.ThreadPool;
 
-var threadPool = new TaskQueue(5);
-for (int i = 0; i < 50; i++)
-    threadPool.EnqueueTask(Write);
+string srcPath, destPath;
 
-threadPool.Dispose();
-Thread.Sleep(15000);
-Console.ReadLine();
-
-
-void Write()
+try
 {
-    Console.WriteLine("dffd");
+    srcPath = args?[0];
+    destPath = args?[1];
 }
+catch (IndexOutOfRangeException ex)
+{
+    Console.WriteLine("Parameters:\n" +
+        "1 - source path\n" +
+        "2 - destination path\n");
+
+    throw ex;
+}
+
+TaskQueue taskQueue = new(5);
+DirectoryCopier directoryCopier = new(taskQueue);
+
+DirectoryValidator validator = new();
+
+
+
