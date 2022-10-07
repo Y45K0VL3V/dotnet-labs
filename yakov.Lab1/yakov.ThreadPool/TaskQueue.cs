@@ -9,40 +9,63 @@ namespace yakov.ThreadPool
 {
     public class TaskQueue : IThreadPool, IDisposable
     {
-        public TaskQueue(int maxThreadsCount)
+        public TaskQueue(uint maxThreadsCount)
         {
             MaxThreadsCount = maxThreadsCount;
-
-            for (int i = 0; i < maxThreadsCount; i++)
-            {
-                CancellationTokenSource tokenSource = new();
-                Thread thread = new Thread(() => Execute(tokenSource.Token));
-                _threadsState.Add(thread.ManagedThreadId, tokenSource);
-            }
         }
 
-        private int _maxThreadsCount;
-        public int MaxThreadsCount
+        private uint _maxThreadsCount;
+        public uint MaxThreadsCount
         {
             get => _maxThreadsCount;
             set
             {
+                if (_disposed) throw new ObjectDisposedException(null);
+
+                ChangeMaxThreadsAmount(value);
                 _maxThreadsCount = value;
             }
         }
 
-        private Dictionary<int, CancellationTokenSource> _threadsState = new();
+        private void ChangeMaxThreadsAmount(uint destValue)
+        {
+            var threadsDifference = _threadsState.Count - destValue;
+
+            if (threadsDifference > 0)
+            {
+                lock (_threadsState)
+                {
+                    foreach (var threadState in _threadsState.TakeLast((int)Math.Abs(threadsDifference)))
+                        threadState.Value.Cancel();
+                }
+            }
+            else
+            {
+                for (int i = (int)threadsDifference; i != 0;)
+                {
+                    CancellationTokenSource tokenSource = new();
+                    Thread thread = new Thread(() => Execute(tokenSource.Token));
+
+                    if (_threadsState.TryAdd(thread.ManagedThreadId, tokenSource))
+                        i--;
+                }
+            }
+        }
+
+        private ConcurrentDictionary<int, CancellationTokenSource> _threadsState = new();
 
         public event Action OnTaskComplete;
-
+        
         protected virtual void TaskComplete()
-        { 
-
+        {
+            Console.WriteLine("Complete");
         }
 
         private ConcurrentQueue<Action> _tasks = new();
         public void EnqueueTask(Action newTask)
         {
+            if (_disposed) throw new ObjectDisposedException(null); 
+
             _tasks.Enqueue(newTask);
         }
 
@@ -56,7 +79,11 @@ namespace yakov.ThreadPool
                     OnTaskComplete?.Invoke();
                 }
             }
+
+            _threadsState.TryRemove(Thread.CurrentThread.ManagedThreadId, out var tokenSource);
         }
+
+        private void ThreadsStopRequest() => MaxThreadsCount = 0;
 
         private bool _disposed = false;
 
@@ -73,9 +100,8 @@ namespace yakov.ThreadPool
 
             if (disposing)
             {
-
+                ThreadsStopRequest();
                 _tasks.Clear();
-                _threadsState.Clear();
             }
 
             _disposed = true;
