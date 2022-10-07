@@ -24,7 +24,6 @@ namespace yakov.Lab1.Directory
             {
                 throw;
             }
-
         }
     }
 }

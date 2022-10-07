@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,66 +7,54 @@ using System.Threading.Tasks;
 
 namespace yakov.ThreadPool
 {
-    public sealed class TaskQueue : IThreadPool, IDisposable
+    public class TaskQueue : IThreadPool, IDisposable
     {
         public TaskQueue(int maxThreadsCount)
         {
             MaxThreadsCount = maxThreadsCount;
-            _taskListener = new(Listen);
-            _taskListener.Start();
+
+            for (int i = 0; i < maxThreadsCount; i++)
+            {
+                CancellationTokenSource tokenSource = new();
+                Thread thread = new Thread(() => Execute(tokenSource.Token));
+                _threadsState.Add(thread.ManagedThreadId, tokenSource);
+            }
         }
 
-        public readonly int MaxThreadsCount;
-        private List<Thread> _threads = new();
-        private void AddActionThread(Action task)
+        private int _maxThreadsCount;
+        public int MaxThreadsCount
         {
-            Thread newActionThread = new(new ThreadStart(task));
-            _threads.Add(newActionThread);
-            newActionThread.Start();
+            get => _maxThreadsCount;
+            set
+            {
+                _maxThreadsCount = value;
+            }
         }
 
-        private Queue<Action> _tasks = new();
+        private Dictionary<int, CancellationTokenSource> _threadsState = new();
+
+        public event Action OnTaskComplete;
+
+        protected virtual void TaskComplete()
+        { 
+
+        }
+
+        private ConcurrentQueue<Action> _tasks = new();
         public void EnqueueTask(Action newTask)
         {
-            newTask += TaskCallback;
             _tasks.Enqueue(newTask);
         }
 
-        private void TaskCallback()
+        private void Execute(CancellationToken cancellationToken)
         {
-            var currentThread = Thread.CurrentThread;
-            lock (_threads)
-            {
-                if (_threads.Contains(currentThread))
-                    _threads.Remove(currentThread);
-            }
-        }
-
-        private Thread _taskListener;
-        private void Listen()
-        {
-            while (true)
+            while (!cancellationToken.IsCancellationRequested)
             {
                 if (_tasks.TryDequeue(out Action? currentTask))
                 {
-                    while (_threads.Count >= MaxThreadsCount) { }
-                    AddActionThread(currentTask);
+                    currentTask.Invoke();
+                    OnTaskComplete?.Invoke();
                 }
-            }
-        }
-
-        private void ThreadAbort(Thread thread, bool isExeptionThrow)
-        {
-            try
-            {
-                thread.Abort();
-            }
-            catch (PlatformNotSupportedException)
-            { }
-            catch
-            {
-                if (isExeptionThrow)
-                    throw;
             }
         }
 
@@ -84,16 +73,9 @@ namespace yakov.ThreadPool
 
             if (disposing)
             {
-                ThreadAbort(_taskListener, isExeptionThrow: false);
-
-                lock (_threads)
-                {
-                    foreach (var thread in _threads)
-                        ThreadAbort(thread, isExeptionThrow: false);
-                }
 
                 _tasks.Clear();
-                _threads.Clear();
+                _threadsState.Clear();
             }
 
             _disposed = true;

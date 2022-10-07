@@ -8,6 +8,8 @@ namespace yakov.ThreadPool
 {
     public interface IThreadPool
     {
+        event Action OnTaskComplete;
+
         void EnqueueTask(Action newTask);
     }
 }

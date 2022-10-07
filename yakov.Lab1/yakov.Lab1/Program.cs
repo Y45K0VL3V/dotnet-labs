@@ -20,8 +20,8 @@ catch (IndexOutOfRangeException ex)
 
 TaskQueue taskQueue = new(5);
 DirectoryCopier directoryCopier = new(taskQueue);
-
 DirectoryValidator validator = new();
 
+directoryCopier.CopyTo(srcPath, destPath, validator);
 
 
