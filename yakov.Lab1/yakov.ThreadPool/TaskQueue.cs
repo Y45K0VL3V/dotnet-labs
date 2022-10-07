@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace yakov.ThreadPool
 {
+    /// <summary>
+    /// Implement ThreadPool logic.
+    /// </summary>
     public class TaskQueue : IDynamicThreadPool, IDisposable
     {
         /// <summary>
@@ -23,6 +26,9 @@ namespace yakov.ThreadPool
         /// </summary>
         public event Action OnTaskComplete;
 
+        /// <summary>
+        /// Object to lock.
+        /// </summary>
         private object _lock = new();
         /// <summary>
         /// Determines maximum amount of threads, that can be created in this pool.

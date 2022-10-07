@@ -13,9 +13,11 @@ TaskQueue taskQueue = new(10);
 DirectoryCopier directoryCopier = new(taskQueue);
 
 CopyOperationInfo copyInfo = directoryCopier.CopyTo(srcPath, destPath, true);
-Console.WriteLine($"\n{copyInfo.SrcFilePath} - source \n" +
-    $"{copyInfo.DestFilePath} - destination \n" +
+Console.WriteLine($"\n{copyInfo.SrcPath} - source \n" +
+    $"{copyInfo.DestPath} - destination \n" +
     $"{copyInfo.CopyTime} - time to copy \n" +
     $"{copyInfo.CopiedFilesAmount} - files copied");
+
+taskQueue.Dispose();
 
 
