@@ -9,17 +9,37 @@ namespace yakov.ThreadPool
 {
     public class TaskQueue : IThreadPool, IDisposable
     {
+        /// <summary>
+        /// Create TaskQueue object.
+        /// </summary>
+        /// <param name="maxThreadsCount">Maximum amount of threads to set.</param>
         public TaskQueue(uint maxThreadsCount)
         {
             MaxThreadsCount = maxThreadsCount;
         }
 
+        /// <summary>
+        /// Event, that is invokes, when thread complete any action.
+        /// </summary>
         public event Action OnTaskComplete;
 
+        /// <summary>
+        /// Determines maximum amount of threads, that can be created in this pool.
+        /// </summary>
         private uint _maxThreadsCount;
+        /// <summary>
+        /// Contains thread IDs and connected to these threads cancellation tokens.
+        /// </summary>
         private ConcurrentDictionary<int, CancellationTokenSource> _threadsState = new();
+        /// <summary>
+        /// Contains tasks to invoke.
+        /// </summary>
         private ConcurrentQueue<Action> _tasks = new();
 
+        /// <summary>
+        /// Maximum threads amount control.
+        /// Dynamic create/remove of threads.
+        /// </summary>
         public uint MaxThreadsCount
         {
             get => _maxThreadsCount;
@@ -32,6 +52,10 @@ namespace yakov.ThreadPool
             }
         }
 
+        /// <summary>
+        /// Mechanism for creating/removing threads.
+        /// </summary>
+        /// <param name="destValue">Destination value of threads.</param>
         private void ChangeMaxThreadsAmount(uint destValue)
         {
             var threadsDifference = _threadsState.Count - destValue;
@@ -57,6 +81,11 @@ namespace yakov.ThreadPool
             }
         }
 
+        /// <summary>
+        /// Listen method for each thread of pool.
+        /// While not closed try to get new task from queue.
+        /// </summary>
+        /// <param name="cancellationToken">Token to request for close.</param>
         private void Execute(CancellationToken cancellationToken)
         {
             while (!cancellationToken.IsCancellationRequested)
@@ -71,13 +100,25 @@ namespace yakov.ThreadPool
             _threadsState.TryRemove(Thread.CurrentThread.ManagedThreadId, out var tokenSource);
         }
 
+        /// <summary>
+        /// Close all threads.
+        /// </summary>
         private void ThreadsStopRequest() => MaxThreadsCount = 0;
 
+        /// <summary>
+        /// Basic event handler for task complete.
+        /// Logging information.
+        /// </summary>
         protected virtual void TaskComplete()
         {
             Console.WriteLine("Complete");
         }
 
+        /// <summary>
+        /// Adding new task.
+        /// </summary>
+        /// <param name="newTask">Task to add.</param>
+        /// <exception cref="ObjectDisposedException">Throws when pool object disposed.</exception>
         public void EnqueueTask(Action newTask)
         {
             if (_disposed) throw new ObjectDisposedException(null); 
