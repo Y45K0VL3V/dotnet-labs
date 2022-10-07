@@ -14,7 +14,12 @@ namespace yakov.ThreadPool
             MaxThreadsCount = maxThreadsCount;
         }
 
+        public event Action OnTaskComplete;
+
         private uint _maxThreadsCount;
+        private ConcurrentDictionary<int, CancellationTokenSource> _threadsState = new();
+        private ConcurrentQueue<Action> _tasks = new();
+
         public uint MaxThreadsCount
         {
             get => _maxThreadsCount;
@@ -52,23 +57,6 @@ namespace yakov.ThreadPool
             }
         }
 
-        private ConcurrentDictionary<int, CancellationTokenSource> _threadsState = new();
-
-        public event Action OnTaskComplete;
-        
-        protected virtual void TaskComplete()
-        {
-            Console.WriteLine("Complete");
-        }
-
-        private ConcurrentQueue<Action> _tasks = new();
-        public void EnqueueTask(Action newTask)
-        {
-            if (_disposed) throw new ObjectDisposedException(null); 
-
-            _tasks.Enqueue(newTask);
-        }
-
         private void Execute(CancellationToken cancellationToken)
         {
             while (!cancellationToken.IsCancellationRequested)
@@ -85,6 +73,19 @@ namespace yakov.ThreadPool
 
         private void ThreadsStopRequest() => MaxThreadsCount = 0;
 
+        protected virtual void TaskComplete()
+        {
+            Console.WriteLine("Complete");
+        }
+
+        public void EnqueueTask(Action newTask)
+        {
+            if (_disposed) throw new ObjectDisposedException(null); 
+
+            _tasks.Enqueue(newTask);
+        }
+
+        #region IDisposable
         private bool _disposed = false;
 
         public void Dispose()
@@ -106,5 +107,6 @@ namespace yakov.ThreadPool
 
             _disposed = true;
         }
+        #endregion
     }
 }
