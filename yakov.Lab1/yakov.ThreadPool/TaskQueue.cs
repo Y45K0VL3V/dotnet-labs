@@ -76,7 +76,7 @@ namespace yakov.ThreadPool
                     Thread thread = new Thread(() => Execute(tokenSource.Token));
 
                     if (_threadsState.TryAdd(thread.ManagedThreadId, tokenSource))
-                        i--;
+                        i++;
                 }
             }
         }

@@ -3,12 +3,19 @@ using yakov.ThreadPool;
 
 string? srcPath, destPath;
 
+Console.WriteLine("Enter first path:");
 srcPath = Console.ReadLine();
+
+Console.WriteLine("Enter first path:");
 destPath = Console.ReadLine();
 
 TaskQueue taskQueue = new(5);
 DirectoryCopier directoryCopier = new(taskQueue);
 
-directoryCopier.CopyTo(srcPath, destPath);
+CopyOperationInfo copyInfo = directoryCopier.CopyTo(srcPath, destPath, true);
+Console.WriteLine($"\n{copyInfo.SrcFilePath} - source \n" +
+    $"{copyInfo.DestFilePath} - destination \n" +
+    $"{copyInfo.CopyTime} - time to copy \n" +
+    $"{copyInfo.CopiedFilesAmount} - files copied");
 
 

@@ -1,5 +1,6 @@
 ﻿using yakov.ThreadPool;
 using System.IO;
+using System.Diagnostics;
 
 namespace yakov.Lab1.DirectoryControl
 {
@@ -20,15 +21,14 @@ namespace yakov.Lab1.DirectoryControl
 
         private IDynamicThreadPool _threadPool;
 
-        public CopyOperationInfo? LastOperationInfo;
-
-        private void CopyDirectory(string srcPath, string destPath, bool isDeepCopy)
+        private uint CopyDirectory(string srcPath, string destPath, bool isDeepCopy)
         {
             var dir = new DirectoryInfo(srcPath);
 
             if (!dir.Exists)
                 throw new DirectoryNotFoundException($"Source directory not found: {dir.FullName}");
 
+            uint copiedFilesAmount = 0;
             DirectoryInfo[] dirs = dir.GetDirectories();
 
             Directory.CreateDirectory(destPath);
@@ -37,6 +37,7 @@ namespace yakov.Lab1.DirectoryControl
             {
                 string targetFilePath = Path.Combine(destPath, file.Name);
                 file.CopyTo(targetFilePath);
+                copiedFilesAmount++;
             }
 
             if (isDeepCopy)
@@ -44,14 +45,27 @@ namespace yakov.Lab1.DirectoryControl
                 foreach (DirectoryInfo subDir in dirs)
                 {
                     string newDestinationDir = Path.Combine(destPath, subDir.Name);
-                    CopyDirectory(subDir.FullName, newDestinationDir, true);
+                    copiedFilesAmount += CopyDirectory(subDir.FullName, newDestinationDir, true);
                 }
             }
+
+            return copiedFilesAmount;
         }
 
-        public void CopyTo(string srcPath, string destPath, bool isDeepCopy)
+        public CopyOperationInfo CopyTo(string srcPath, string destPath, bool isDeepCopy)
         {
-            CopyDirectory(srcPath, destPath, isDeepCopy);
+            CopyOperationInfo copyInfo = new() { SrcFilePath = srcPath, DestFilePath = destPath};
+
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            uint copiedFilesAmount = CopyDirectory(srcPath, destPath, isDeepCopy);
+            copyInfo.CopiedFilesAmount = copiedFilesAmount;
+
+            stopwatch.Stop();
+            copyInfo.CopyTime = stopwatch.Elapsed;
+
+            return copyInfo;
         }
     }
 }
