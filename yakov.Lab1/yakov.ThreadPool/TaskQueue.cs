@@ -23,6 +23,7 @@ namespace yakov.ThreadPool
         /// </summary>
         public event Action OnTaskComplete;
 
+        private object _lock = new();
         /// <summary>
         /// Determines maximum amount of threads, that can be created in this pool.
         /// </summary>
@@ -31,6 +32,14 @@ namespace yakov.ThreadPool
         /// Contains thread IDs and connected to these threads cancellation tokens.
         /// </summary>
         private ConcurrentDictionary<int, CancellationTokenSource> _threadsState = new();
+        /// <summary>
+        /// Amount of enqueued tasks for all time of pool.
+        /// </summary>
+        private uint _queuedTasksAmount;
+        /// <summary>
+        /// Amount of completed tasks for all time of pool.
+        /// </summary>
+        private uint _completedTasksAmount;
         /// <summary>
         /// Contains tasks to invoke.
         /// </summary>
@@ -74,6 +83,7 @@ namespace yakov.ThreadPool
                 {
                     CancellationTokenSource tokenSource = new();
                     Thread thread = new Thread(() => Execute(tokenSource.Token));
+                    thread.Start();
 
                     if (_threadsState.TryAdd(thread.ManagedThreadId, tokenSource))
                         i++;
@@ -90,10 +100,15 @@ namespace yakov.ThreadPool
         {
             while (!cancellationToken.IsCancellationRequested)
             {
+                if (_tasks.IsEmpty) continue;
                 if (_tasks.TryDequeue(out Action? currentTask))
                 {
                     currentTask.Invoke();
                     OnTaskComplete?.Invoke();
+                    lock (_lock)
+                    {
+                        _completedTasksAmount++;
+                    }
                 }
             }
 
@@ -124,7 +139,14 @@ namespace yakov.ThreadPool
             if (_disposed) throw new ObjectDisposedException(null); 
 
             _tasks.Enqueue(newTask);
+            _queuedTasksAmount++;
         }
+
+        /// <summary>
+        /// Returns if all tasks have completed.
+        /// </summary>
+        /// <returns></returns>
+        public bool IsAllTasksComplete() => _queuedTasksAmount == _completedTasksAmount;
 
         #region IDisposable
         private bool _disposed = false;

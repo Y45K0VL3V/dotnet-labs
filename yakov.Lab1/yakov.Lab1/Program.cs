@@ -9,7 +9,7 @@ srcPath = Console.ReadLine();
 Console.WriteLine("Enter first path:");
 destPath = Console.ReadLine();
 
-TaskQueue taskQueue = new(5);
+TaskQueue taskQueue = new(10);
 DirectoryCopier directoryCopier = new(taskQueue);
 
 CopyOperationInfo copyInfo = directoryCopier.CopyTo(srcPath, destPath, true);

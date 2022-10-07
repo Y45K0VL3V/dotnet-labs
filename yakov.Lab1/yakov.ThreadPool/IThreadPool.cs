@@ -12,7 +12,7 @@ namespace yakov.ThreadPool
 
         public uint MaxThreadsCount { get; set; }
 
-        //public uint GetLeftTasksCount();
         public void EnqueueTask(Action newTask);
+        public bool IsAllTasksComplete();
     }
 }

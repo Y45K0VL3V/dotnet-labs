@@ -36,7 +36,7 @@ namespace yakov.Lab1.DirectoryControl
             foreach (FileInfo file in dir.GetFiles())
             {
                 string targetFilePath = Path.Combine(destPath, file.Name);
-                file.CopyTo(targetFilePath);
+                _threadPool.EnqueueTask(() => file.CopyTo(targetFilePath));
                 copiedFilesAmount++;
             }
 
@@ -61,6 +61,7 @@ namespace yakov.Lab1.DirectoryControl
 
             uint copiedFilesAmount = CopyDirectory(srcPath, destPath, isDeepCopy);
             copyInfo.CopiedFilesAmount = copiedFilesAmount;
+            while (!_threadPool.IsAllTasksComplete()) { }
 
             stopwatch.Stop();
             copyInfo.CopyTime = stopwatch.Elapsed;
