@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace yakov.ThreadPool
 {
-    public class TaskQueue : IThreadPool, IDisposable
+    public class TaskQueue : IDynamicThreadPool, IDisposable
     {
         /// <summary>
         /// Create TaskQueue object.

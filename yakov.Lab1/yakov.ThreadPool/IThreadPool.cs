@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace yakov.ThreadPool
 {
-    public interface IThreadPool
+    public interface IDynamicThreadPool
     {
-        event Action OnTaskComplete;
+        public event Action OnTaskComplete;
 
-        void EnqueueTask(Action newTask);
+        public uint MaxThreadsCount { get; set; }
+
+        //public uint GetLeftTasksCount();
+        public void EnqueueTask(Action newTask);
     }
 }
