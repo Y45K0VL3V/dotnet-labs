@@ -1,6 +1,8 @@
 ﻿using yakov.ThreadPool;
-using System.IO;
 using System.Diagnostics;
+using NLog;
+using System.Threading;
+using System.Xml;
 
 namespace yakov.Lab1.DirectoryControl
 {
@@ -38,9 +40,14 @@ namespace yakov.Lab1.DirectoryControl
         /// <param name="threadPool">Thread pool to use.</param>
         public DirectoryCopier(IDynamicThreadPool threadPool)
         {
+            _logger.Info($"Directory copier created");
             _threadPool = threadPool;
         }
 
+        /// <summary>
+        /// Logger.
+        /// </summary>
+        private static Logger _logger = LogManager.GetCurrentClassLogger();
         /// <summary>
         /// Thread pool to invoke file copy tasks.
         /// </summary>
@@ -59,7 +66,10 @@ namespace yakov.Lab1.DirectoryControl
             var dir = new DirectoryInfo(srcPath);
 
             if (!dir.Exists)
-                throw new DirectoryNotFoundException($"Source directory not found: {dir.FullName}");
+            {
+                _logger.Error($"Source directory not found: {dir.FullName}");
+                throw new DirectoryNotFoundException($"Source directory not found: {dir.FullName}.");
+            }
 
             uint copiedFilesAmount = 0;
             DirectoryInfo[] dirs = dir.GetDirectories();
@@ -69,8 +79,21 @@ namespace yakov.Lab1.DirectoryControl
             foreach (FileInfo file in dir.GetFiles())
             {
                 string targetFilePath = Path.Combine(destPath, file.Name);
-                _threadPool.EnqueueTask(() => file.CopyTo(targetFilePath));
-                copiedFilesAmount++;
+
+                try
+                {
+                    _threadPool.EnqueueTask(() => 
+                    {
+                        _logger.Info($"{Thread.CurrentThread.ManagedThreadId} thread - start copy {file.FullName} to {targetFilePath}.");
+                        file.CopyTo(targetFilePath);
+                        _logger.Info($"{Thread.CurrentThread.ManagedThreadId} thread - end copy {file.FullName} to {targetFilePath}.");
+                    });
+                    copiedFilesAmount++;
+                }
+                catch
+                {
+                    _logger.Error($"Can not be copied to {targetFilePath}.");
+                }
             }
 
             if (isDeepCopy)
@@ -96,6 +119,7 @@ namespace yakov.Lab1.DirectoryControl
         {
             CopyOperationInfo copyInfo = new() { SrcPath = srcPath, DestPath = destPath};
 
+            _logger.Info($"Start coping {srcPath} -> {destPath}.");
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
@@ -105,6 +129,7 @@ namespace yakov.Lab1.DirectoryControl
 
             stopwatch.Stop();
             copyInfo.CopyTime = stopwatch.Elapsed;
+            _logger.Info($"End coping {srcPath} -> {destPath}.");
 
             return copyInfo;
         }

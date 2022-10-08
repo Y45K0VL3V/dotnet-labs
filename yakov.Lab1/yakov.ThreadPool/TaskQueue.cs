@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Concurrent;
+using NLog;
 
 namespace yakov.ThreadPool
 {
@@ -18,18 +14,23 @@ namespace yakov.ThreadPool
         /// <param name="maxThreadsCount">Maximum amount of threads to set.</param>
         public TaskQueue(uint maxThreadsCount)
         {
+            _logger.Info($"TaskQueue created.");
             MaxThreadsCount = maxThreadsCount;
         }
 
         /// <summary>
         /// Event, that is invokes, when thread complete any action.
         /// </summary>
-        public event Action OnTaskComplete;
+        public event Action? OnTaskComplete;
 
         /// <summary>
         /// Object to lock.
         /// </summary>
         private object _lock = new();
+        /// <summary>
+        /// Logger.
+        /// </summary>
+        private static Logger _logger = LogManager.GetCurrentClassLogger();
         /// <summary>
         /// Determines maximum amount of threads, that can be created in this pool.
         /// </summary>
@@ -62,6 +63,7 @@ namespace yakov.ThreadPool
             {
                 if (_disposed) throw new ObjectDisposedException(null);
 
+                _logger.Info($"Max threads amount - {value}.");
                 ChangeMaxThreadsAmount(value);
                 _maxThreadsCount = value;
             }
@@ -80,7 +82,10 @@ namespace yakov.ThreadPool
                 lock (_threadsState)
                 {
                     foreach (var threadState in _threadsState.TakeLast((int)Math.Abs(threadsDifference)))
+                    {
                         threadState.Value.Cancel();
+                        _logger.Info($"{threadState.Key} thread - request to close.");
+                    }
                 }
             }
             else
@@ -90,6 +95,7 @@ namespace yakov.ThreadPool
                     CancellationTokenSource tokenSource = new();
                     Thread thread = new Thread(() => Execute(tokenSource.Token));
                     thread.Start();
+                    _logger.Info($"{thread.ManagedThreadId} thread - started.");
 
                     if (_threadsState.TryAdd(thread.ManagedThreadId, tokenSource))
                         i++;
@@ -106,7 +112,6 @@ namespace yakov.ThreadPool
         {
             while (!cancellationToken.IsCancellationRequested)
             {
-                if (_tasks.IsEmpty) continue;
                 if (_tasks.TryDequeue(out Action? currentTask))
                 {
                     currentTask.Invoke();
@@ -119,21 +124,13 @@ namespace yakov.ThreadPool
             }
 
             _threadsState.TryRemove(Thread.CurrentThread.ManagedThreadId, out var tokenSource);
+            _logger.Info($"{Thread.CurrentThread.ManagedThreadId} thread - closed.");
         }
 
         /// <summary>
         /// Close all threads.
         /// </summary>
         private void ThreadsStopRequest() => MaxThreadsCount = 0;
-
-        /// <summary>
-        /// Basic event handler for task complete.
-        /// Logging information.
-        /// </summary>
-        protected virtual void TaskComplete()
-        {
-            Console.WriteLine("Complete");
-        }
 
         /// <summary>
         /// Adding new task.
@@ -175,6 +172,7 @@ namespace yakov.ThreadPool
             }
 
             _disposed = true;
+            _logger.Info("TaskQueue - disposed.");
         }
         #endregion
     }

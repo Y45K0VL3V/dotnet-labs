@@ -22,3 +22,4 @@ C:\University\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPo
 C:\University\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\refint\yakov.ThreadPool.dll
 C:\University\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\yakov.ThreadPool.pdb
 C:\University\СПП\yakov.Lab1\yakov.ThreadPool\obj\Debug\net6.0\ref\yakov.ThreadPool.dll
+C:\University\СПП\yakov.Lab1\yakov.ThreadPool\bin\Debug\net6.0\NLog.config

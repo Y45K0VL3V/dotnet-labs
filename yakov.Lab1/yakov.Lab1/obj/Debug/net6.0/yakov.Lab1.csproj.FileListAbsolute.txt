@@ -34,3 +34,5 @@ C:\University\СПП\yakov.Lab1\yakov.Lab1\obj\Debug\net6.0\refint\yakov.Lab1.dl
 C:\University\СПП\yakov.Lab1\yakov.Lab1\obj\Debug\net6.0\yakov.Lab1.pdb
 C:\University\СПП\yakov.Lab1\yakov.Lab1\obj\Debug\net6.0\yakov.Lab1.genruntimeconfig.cache
 C:\University\СПП\yakov.Lab1\yakov.Lab1\obj\Debug\net6.0\ref\yakov.Lab1.dll
+C:\University\СПП\yakov.Lab1\yakov.Lab1\bin\Debug\net6.0\NLog.config
+C:\University\СПП\yakov.Lab1\yakov.Lab1\bin\Debug\net6.0\NLog.dll
