@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qoQGKzePuwBsSu4hhzky/h095AHzoQofeyK2SNBHaeQoeYYMcnfYBeJ9SjO5CKl9+Mb27PVO3MPBDQTkEsO64Q==",
+  "success": true,
+  "projectFilePath": "C:\\University\\СПП\\yakov.SPPLabs\\yakov.ThreadPool\\yakov.ThreadPool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512"
+  ],
+  "logs": []
+}
