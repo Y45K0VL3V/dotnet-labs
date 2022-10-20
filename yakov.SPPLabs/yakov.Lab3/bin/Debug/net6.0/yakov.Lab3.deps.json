@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "yakov.Lab3/1.0.0": {
+        "dependencies": {
+          "yakov.AssemblyControl": "1.0.0"
+        },
+        "runtime": {
+          "yakov.Lab3.dll": {}
+        }
+      },
+      "yakov.AssemblyControl/1.0.0": {
+        "runtime": {
+          "yakov.AssemblyControl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "yakov.Lab3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "yakov.AssemblyControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

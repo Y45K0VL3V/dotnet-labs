@@ -1,0 +1,12 @@
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\bin\Debug\net6.0\yakov.AssemblyControl.deps.json
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\bin\Debug\net6.0\yakov.AssemblyControl.dll
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\bin\Debug\net6.0\yakov.AssemblyControl.pdb
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\yakov.AssemblyControl.csproj.AssemblyReference.cache
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\yakov.AssemblyControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\yakov.AssemblyControl.AssemblyInfoInputs.cache
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\yakov.AssemblyControl.AssemblyInfo.cs
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\yakov.AssemblyControl.csproj.CoreCompileInputs.cache
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\yakov.AssemblyControl.dll
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\refint\yakov.AssemblyControl.dll
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\yakov.AssemblyControl.pdb
+C:\University\СПП\yakov.SPPLabs\yakov.AssemblyControl\obj\Debug\net6.0\ref\yakov.AssemblyControl.dll

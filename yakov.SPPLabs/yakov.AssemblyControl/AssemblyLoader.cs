@@ -20,20 +20,21 @@ namespace yakov.AssemblyControl
         /// Loads new assembly.
         /// </summary>
         /// <param name="path">Assembly path</param>
-        /// <returns>True, if assembly loaded</returns>
-        public bool LoadNew(string path)
+        /// <returns>Assembly instance if loaded successfully, else null</returns>
+        public Assembly? LoadNew(string path)
         {
+            Assembly? assembly;
             try
             {
-                var assembly = Assembly.LoadFrom(path);
+                assembly = Assembly.LoadFrom(path);
                 LoadedAssemblies.Add(assembly);
             }
             catch
             {
-                return false;
+                return null;
             }
 
-            return true;
+            return assembly;
         }
     }
 }
