@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace yakov.Logger
 {
@@ -11,7 +12,7 @@ namespace yakov.Logger
             BufferMaxElements = bufMaxElements;
         }
 
-        private List<string> _items = new();
+        private Queue<string> _items = new();
 
         public string LogFilePath { get; private set; }
         public uint Timeout { get; private set; }
@@ -19,12 +20,27 @@ namespace yakov.Logger
 
         private void WriteToFile()
         {
-            throw new NotImplementedException();
+            try
+            {
+                using (var sw = new StreamWriter(LogFilePath, append:true))
+                {
+                    while (_items.Count > 0)
+                        sw.WriteLine(_items.Dequeue());
+                }
+            }
+            catch
+            {
+                throw;
+            }
+
         }
 
         public void Add(string item)
         {
-            throw new NotImplementedException();
+            _items.Enqueue(item);
+
+            if (_items.Count == BufferMaxElements)
+                WriteToFile();
         }
 
     }
