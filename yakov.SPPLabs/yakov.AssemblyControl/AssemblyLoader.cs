@@ -1,4 +1,7 @@
-﻿using System.Reflection;
+﻿using System;
+using System.ComponentModel;
+using System.Reflection;
+using System.Text;
 
 namespace yakov.AssemblyControl
 {
@@ -11,7 +14,7 @@ namespace yakov.AssemblyControl
         /// <summary>
         /// Loaded assemblies.
         /// </summary>
-        public List<Assembly> LoadedAssemblies = new();
+        public List<Assembly> LoadedAssemblies { get; private set; } = new();
 
         /// <summary>
         /// Loads new assembly.
