@@ -15,9 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{5C70D4A0-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab3", "Lab3", "{A8AA3956-0A72-45CC-8865-59C0A12AB728}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.Lab3", "yakov.Lab3\yakov.Lab3.csproj", "{95B1F8B8-607A-4A36-A7BA-CAA731B86F3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.Lab3", "yakov.Lab3\yakov.Lab3.csproj", "{95B1F8B8-607A-4A36-A7BA-CAA731B86F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.AssemblyControl", "yakov.AssemblyControl\yakov.AssemblyControl.csproj", "{855B1BFB-1189-40C8-A563-90AAB3B9F4DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.AssemblyControl", "yakov.AssemblyControl\yakov.AssemblyControl.csproj", "{855B1BFB-1189-40C8-A563-90AAB3B9F4DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.Logger", "yakov.Logger\yakov.Logger.csproj", "{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{855B1BFB-1189-40C8-A563-90AAB3B9F4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{855B1BFB-1189-40C8-A563-90AAB3B9F4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{855B1BFB-1189-40C8-A563-90AAB3B9F4DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{4ACF57FD-C9CD-4D84-A79B-395916CCF3A5} = {3CB9144E-D613-4090-A06A-390717EF0872}
 		{95B1F8B8-607A-4A36-A7BA-CAA731B86F3F} = {A8AA3956-0A72-45CC-8865-59C0A12AB728}
 		{855B1BFB-1189-40C8-A563-90AAB3B9F4DF} = {A8AA3956-0A72-45CC-8865-59C0A12AB728}
+		{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856} = {A8AA3956-0A72-45CC-8865-59C0A12AB728}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {551CD600-F385-447F-A4EA-93E176A0ED80}
