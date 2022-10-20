@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.ThreadPool", "yakov.T
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{3CB9144E-D613-4090-A06A-390717EF0872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.Lab2", "yakov.Lab2\yakov.Lab2.csproj", "{4ACF57FD-C9CD-4D84-A79B-395916CCF3A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.Lab2", "yakov.Lab2\yakov.Lab2.csproj", "{4ACF57FD-C9CD-4D84-A79B-395916CCF3A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{5C70D4A0-7C22-4271-AB63-20C09F3E4B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{393E61D7-1235-4CD4-9ADB-4F164DC3675A} = {5C70D4A0-7C22-4271-AB63-20C09F3E4B32}
+		{24925A22-B695-4230-82C9-503DED4AD99A} = {5C70D4A0-7C22-4271-AB63-20C09F3E4B32}
 		{4ACF57FD-C9CD-4D84-A79B-395916CCF3A5} = {3CB9144E-D613-4090-A06A-390717EF0872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
