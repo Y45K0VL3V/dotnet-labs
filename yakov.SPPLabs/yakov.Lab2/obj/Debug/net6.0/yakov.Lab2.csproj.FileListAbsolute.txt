@@ -1,0 +1,12 @@
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\bin\Debug\net6.0\yakov.Lab2.deps.json
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\bin\Debug\net6.0\yakov.Lab2.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\bin\Debug\net6.0\yakov.Lab2.pdb
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.csproj.AssemblyReference.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.AssemblyInfoInputs.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.AssemblyInfo.cs
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.csproj.CoreCompileInputs.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\refint\yakov.Lab2.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.pdb
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\ref\yakov.Lab2.dll

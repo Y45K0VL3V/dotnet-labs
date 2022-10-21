@@ -1,5 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
+﻿
 namespace yakov.Lab2
 {
     /// <summary>

@@ -1,0 +1,12 @@
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\bin\Debug\net6.0\yakov.Logger.deps.json
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\bin\Debug\net6.0\yakov.Logger.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\bin\Debug\net6.0\yakov.Logger.pdb
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\yakov.Logger.csproj.AssemblyReference.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\yakov.Logger.GeneratedMSBuildEditorConfig.editorconfig
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\yakov.Logger.AssemblyInfoInputs.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\yakov.Logger.AssemblyInfo.cs
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\yakov.Logger.csproj.CoreCompileInputs.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\yakov.Logger.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\refint\yakov.Logger.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\yakov.Logger.pdb
+C:\University\СПП\yakov.SPPLabs\yakov.Logger\obj\Debug\net6.0\ref\yakov.Logger.dll

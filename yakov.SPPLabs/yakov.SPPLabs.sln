@@ -19,13 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.Lab3", "yakov.Lab3\ya
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.AssemblyControl", "yakov.AssemblyControl\yakov.AssemblyControl.csproj", "{855B1BFB-1189-40C8-A563-90AAB3B9F4DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.Logger", "yakov.Logger\yakov.Logger.csproj", "{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.Logger", "yakov.Logger\yakov.Logger.csproj", "{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab4", "Lab4", "{28E1DB86-04D6-4E8C-8189-6FBA89E0F125}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab5", "Lab5", "{2D83B64A-2341-419D-8AB4-34FBEFDA2D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.Lab4", "yakov.Lab4\yakov.Lab4.csproj", "{80147002-7CD6-4F2D-B885-73B4F3422538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "yakov.Lab4", "yakov.Lab4\yakov.Lab4.csproj", "{80147002-7CD6-4F2D-B885-73B4F3422538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yakov.Lab2Test", "yakov.Lab2Test\yakov.Lab2Test.csproj", "{6517BEAB-9043-4C29-B51F-872B58EE93D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{80147002-7CD6-4F2D-B885-73B4F3422538}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80147002-7CD6-4F2D-B885-73B4F3422538}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80147002-7CD6-4F2D-B885-73B4F3422538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6517BEAB-9043-4C29-B51F-872B58EE93D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6517BEAB-9043-4C29-B51F-872B58EE93D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6517BEAB-9043-4C29-B51F-872B58EE93D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6517BEAB-9043-4C29-B51F-872B58EE93D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{855B1BFB-1189-40C8-A563-90AAB3B9F4DF} = {A8AA3956-0A72-45CC-8865-59C0A12AB728}
 		{E89EDD9D-F22E-49D5-9FB4-76A4FFDC5856} = {A8AA3956-0A72-45CC-8865-59C0A12AB728}
 		{80147002-7CD6-4F2D-B885-73B4F3422538} = {28E1DB86-04D6-4E8C-8189-6FBA89E0F125}
+		{6517BEAB-9043-4C29-B51F-872B58EE93D2} = {3CB9144E-D613-4090-A06A-390717EF0872}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {551CD600-F385-447F-A4EA-93E176A0ED80}

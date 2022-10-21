@@ -40,8 +40,15 @@ namespace yakov.Lab2
                     // Close managed resources.
                 }
 
-                CloseHandle(Handle);
-                Handle = IntPtr.Zero;
+                try 
+                {
+                    CloseHandle(Handle);
+                }
+                catch 
+                {
+                    Handle = IntPtr.Zero;
+                    Console.WriteLine("Descriptor closed.");
+                }
 
                 disposed = true;
             }
