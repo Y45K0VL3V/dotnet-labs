@@ -10,29 +10,36 @@ namespace yakov.Logger
             LogFilePath = logFilePath;
             Timeout = timeout;
             BufferMaxElements = bufMaxElements;
+
+            _writeTimer = new Timer(new(WriteToFile), _items, 0, Timeout);
         }
 
+        private readonly Timer _writeTimer;
         private Queue<string> _items = new();
 
         public string LogFilePath { get; private set; }
         public uint Timeout { get; private set; }
         public uint BufferMaxElements { get; private set; }
 
-        private void WriteToFile()
+        private async void WriteToFile(object? itemsObj)
         {
-            try
+            _items = new();
+            await Task.Run(() =>
             {
-                using (var sw = new StreamWriter(LogFilePath, append:true))
+                try
                 {
-                    while (_items.Count > 0)
-                        sw.WriteLine(_items.Dequeue());
-                }
-            }
-            catch
-            {
-                throw;
-            }
+                    Queue<string>? items = itemsObj as Queue<string>;
+                    if (items == null)
+                        return;
 
+                    using (var sw = new StreamWriter(LogFilePath, append: true))
+                    {
+                        while (items.Count > 0)
+                            sw.WriteLine(items.Dequeue());
+                    }
+                }
+                catch { }
+            });
         }
 
         public void Add(string item)
@@ -40,7 +47,7 @@ namespace yakov.Logger
             _items.Enqueue(item);
 
             if (_items.Count == BufferMaxElements)
-                WriteToFile();
+                WriteToFile(_items);
         }
 
     }
