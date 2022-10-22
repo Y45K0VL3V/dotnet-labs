@@ -167,9 +167,10 @@ namespace yakov.ThreadPool
 
             if (disposing)
             {
-                ThreadsStopRequest();
                 _tasks.Clear();
             }
+
+            ThreadsStopRequest();
 
             _disposed = true;
             _logger.Info("TaskQueue - disposed.");

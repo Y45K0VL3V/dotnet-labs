@@ -10,3 +10,4 @@ C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.dll
 C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\refint\yakov.Lab2.dll
 C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\yakov.Lab2.pdb
 C:\University\СПП\yakov.SPPLabs\yakov.Lab2\obj\Debug\net6.0\ref\yakov.Lab2.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab2\bin\Debug\net6.0\NLog.config

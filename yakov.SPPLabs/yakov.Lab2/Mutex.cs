@@ -1,4 +1,6 @@
 ﻿
+using NLog;
+
 namespace yakov.Lab2
 {
     /// <summary>
@@ -6,6 +8,11 @@ namespace yakov.Lab2
     /// </summary>
     public class Mutex : IMutex
     {
+        /// <summary>
+        /// Logger.
+        /// </summary>
+        private static Logger _logger = LogManager.GetCurrentClassLogger();
+
         /// <summary>
         /// Contains thread's ID, that locked mutex. 
         /// ID = -1 means mutex not locked.
@@ -19,7 +26,11 @@ namespace yakov.Lab2
         {
             var currentThreadId = Thread.CurrentThread.ManagedThreadId;
             while (Interlocked.CompareExchange(ref _activeThreadId, currentThreadId, -1) != -1)
+            {
+                _logger.Info($"{currentThreadId} wait.");                
                 Thread.Sleep(10);
+            }
+            _logger.Info($"{currentThreadId} locked.");
         }
 
         /// <summary>
@@ -28,7 +39,10 @@ namespace yakov.Lab2
         public void Unlock()
         {
             var currentThreadId = Thread.CurrentThread.ManagedThreadId;
-            Interlocked.CompareExchange(ref _activeThreadId, -1, currentThreadId);
+            if (Interlocked.CompareExchange(ref _activeThreadId, -1, currentThreadId) == -1)
+            {
+                _logger.Info($"{currentThreadId} unlocked.");
+            }
         }
     }
 }

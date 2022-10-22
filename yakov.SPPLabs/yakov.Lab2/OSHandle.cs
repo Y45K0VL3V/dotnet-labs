@@ -1,4 +1,5 @@
-﻿using System.Runtime.InteropServices;
+﻿using NLog;
+using System.Runtime.InteropServices;
 
 namespace yakov.Lab2
 {
@@ -7,6 +8,11 @@ namespace yakov.Lab2
     /// </summary>
     public class OSHandle : IDisposable
     {
+        /// <summary>
+        /// Logger.
+        /// </summary>
+        private static Logger _logger = LogManager.GetCurrentClassLogger();
+
         /// <summary>
         /// Current handle.
         /// </summary>
@@ -42,14 +48,23 @@ namespace yakov.Lab2
 
                 try 
                 {
-                    CloseHandle(Handle);
+                    if (CloseHandle(Handle))
+                    {
+                        Handle = IntPtr.Zero;
+                        Console.WriteLine("Descriptor closed.");
+                        _logger.Info("Descriptor closed.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Descriptor not closed.");
+                        _logger.Info("Descriptor not closed.");
+                    }
                 }
-                catch 
+                catch (Exception ex) 
                 {
-                    Handle = IntPtr.Zero;
-                    Console.WriteLine("Descriptor closed.");
+                    _logger.Error(ex.Message);
                 }
-
+                
                 disposed = true;
             }
         }

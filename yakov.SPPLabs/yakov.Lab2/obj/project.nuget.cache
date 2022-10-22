@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "uX1CDEnehaOnyiZYnVeUY/B7G7L8S87+STDGtDJGw2ghpAF63yIRQ2wpQ3fWO6ZySGXx6RVoFdrCwG7dOxx2bw==",
+  "dgSpecHash": "lkGKZ3iGFSHaB71EXnqlH+Xxwe1dFK1IkUIGDiH2q4xaXkBCF1DJG0P6xqc9rObLIssgTGA00EKKCxpbWonb8Q==",
   "success": true,
   "projectFilePath": "C:\\University\\СПП\\yakov.SPPLabs\\yakov.Lab2\\yakov.Lab2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512"
+  ],
   "logs": []
 }

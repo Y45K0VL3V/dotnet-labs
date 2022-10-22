@@ -1,32 +1,35 @@
 ﻿
+using NLog;
 using System.Runtime.InteropServices;
+using System.Text;
 using yakov.Lab2;
 
-//IntPtr desc = Marshal.AllocHGlobal(20);
+//var file = File.Create("path.txt");
+//IntPtr desc = file.Handle;
 
 //OSHandle oSHandle = new();
 //oSHandle.Handle = desc;
 //oSHandle.Dispose();
 
-//int x = 0;
-//yakov.Lab2.Mutex mutexObj = new();
+yakov.Lab2.Mutex mutexObj = new();
 
-//for (int i = 1; i < 6; i++)
-//{
-//    Thread myThread = new(Print);
-//    myThread.Name = $"Поток {i}";
-//    myThread.Start();
-//}
+Logger logger = LogManager.GetCurrentClassLogger();
 
-//void Print()
-//{
-//    mutexObj.Lock();
-//    x = 1;
-//    for (int i = 1; i < 6; i++)
-//    {
-//        Console.WriteLine($"{Thread.CurrentThread.Name}: {x}");
-//        x++;
-//        Thread.Sleep(50);
-//    }
-//    mutexObj.Unlock();
-//}
+for (int i = 1; i < 6; i++)
+{
+    Thread myThread = new(Print);
+    myThread.Start();
+}
+
+void Print()
+{
+    logger.Info($"Thread {Thread.CurrentThread.ManagedThreadId} - start");
+    mutexObj.Lock();
+    for (int i = 1; i < 6; i++)
+    {
+        Console.WriteLine($"Thread {Thread.CurrentThread.ManagedThreadId}: {x}");
+        Thread.Sleep(50);
+    }
+    mutexObj.Unlock();
+    logger.Info($"Thread {Thread.CurrentThread.ManagedThreadId} - finish");
+}

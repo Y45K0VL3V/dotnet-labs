@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HNwE5O4hCCEI73bIQGqMh0aaYeVPC+2pwUK8AtVlMk5iBuWzjtpQ2Qhbqg08kI3KWL7P4AunYcJCMPoNQZLilw==",
+  "dgSpecHash": "7eVw13ZfuvaVlBiQEKzoiaxZXHGh3g+asaH7TP2VhcFUg4b+1yUFYJopMFhTEn0TBPRqVdisGZG6zah3ce7knA==",
   "success": true,
   "projectFilePath": "C:\\University\\СПП\\yakov.SPPLabs\\yakov.AssemblyControl\\yakov.AssemblyControl.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\yakov\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512"
+  ],
   "logs": []
 }
