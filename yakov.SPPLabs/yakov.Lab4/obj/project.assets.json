@@ -53,6 +53,20 @@
         "runtime": {
           "bin/placeholder/yakov.AssemblyControl.dll": {}
         }
+      },
+      "yakov.ThreadPool/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NLog": "5.0.4",
+          "NLog.Config": "4.7.15"
+        },
+        "compile": {
+          "bin/placeholder/yakov.ThreadPool.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/yakov.ThreadPool.dll": {}
+        }
       }
     }
   },
@@ -113,13 +127,19 @@
       "type": "project",
       "path": "../yakov.AssemblyControl/yakov.AssemblyControl.csproj",
       "msbuildProject": "../yakov.AssemblyControl/yakov.AssemblyControl.csproj"
+    },
+    "yakov.ThreadPool/1.0.0": {
+      "type": "project",
+      "path": "../yakov.ThreadPool/yakov.ThreadPool.csproj",
+      "msbuildProject": "../yakov.ThreadPool/yakov.ThreadPool.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "NLog >= 5.0.4",
       "NLog.Config >= 4.7.15",
-      "yakov.AssemblyControl >= 1.0.0"
+      "yakov.AssemblyControl >= 1.0.0",
+      "yakov.ThreadPool >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -157,6 +177,9 @@
           "projectReferences": {
             "C:\\University\\СПП\\yakov.SPPLabs\\yakov.AssemblyControl\\yakov.AssemblyControl.csproj": {
               "projectPath": "C:\\University\\СПП\\yakov.SPPLabs\\yakov.AssemblyControl\\yakov.AssemblyControl.csproj"
+            },
+            "C:\\University\\СПП\\yakov.SPPLabs\\yakov.ThreadPool\\yakov.ThreadPool.csproj": {
+              "projectPath": "C:\\University\\СПП\\yakov.SPPLabs\\yakov.ThreadPool\\yakov.ThreadPool.csproj"
             }
           }
         }

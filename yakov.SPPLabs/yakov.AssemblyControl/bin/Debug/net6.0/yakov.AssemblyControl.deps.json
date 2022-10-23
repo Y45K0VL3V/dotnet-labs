@@ -7,10 +7,29 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "yakov.AssemblyControl/1.0.0": {
+        "dependencies": {
+          "NLog": "5.0.4",
+          "NLog.Config": "4.7.15"
+        },
         "runtime": {
           "yakov.AssemblyControl.dll": {}
         }
-      }
+      },
+      "NLog/5.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.4.1331"
+          }
+        }
+      },
+      "NLog.Config/4.7.15": {
+        "dependencies": {
+          "NLog": "5.0.4",
+          "NLog.Schema": "4.7.15"
+        }
+      },
+      "NLog.Schema/4.7.15": {}
     }
   },
   "libraries": {
@@ -18,6 +37,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "NLog/5.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMyC7jq1m7c339DZXTRz96b+0YsIYSwAUB8sAWMtqXd2uwJjYe+y1k74fbItODPqDuE/krd6A4mxew9gLMS+PQ==",
+      "path": "nlog/5.0.4",
+      "hashPath": "nlog.5.0.4.nupkg.sha512"
+    },
+    "NLog.Config/4.7.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-njc2NvwgAzEuH609TGO4yqpokcxXFdypHwG3I8hyLYIE4pr+j4KJB4ZhsyODVwkP/n2F2V4uJ24VW4icNyJMcA==",
+      "path": "nlog.config/4.7.15",
+      "hashPath": "nlog.config.4.7.15.nupkg.sha512"
+    },
+    "NLog.Schema/4.7.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cBzca2abS5Qz8e40vIPZNWBiDAQaRY7PKWffBbazMAzvxGBM6/ZWgaAEmqHUOluhV41cuyXnHOzo485JPLeChg==",
+      "path": "nlog.schema/4.7.15",
+      "hashPath": "nlog.schema.4.7.15.nupkg.sha512"
     }
   }
 }
