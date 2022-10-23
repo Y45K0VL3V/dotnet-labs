@@ -9,14 +9,15 @@ namespace yakov.Lab5
 {
     public class DynamicList<T> : IEnumerable<T>, IList<T>
     {
-        public T[] Items { get; set; } = new T[0];
+        private T[] _items = new T[0];
         public T this[int index]
         {
             get
             {
                 try
                 {
-                    return Items[index];
+                    var gg = new List<int>();
+                    return _items[index];
                 }
                 catch
                 {
@@ -25,27 +26,29 @@ namespace yakov.Lab5
             }
             set
             {
-                Items[index] = value;
+                _items[index] = value;
             }
         }
 
-        public int Count => throw new NotImplementedException();
+        public int Count => _items.Length;
 
-        public bool IsReadOnly => throw new NotImplementedException();
+        public bool IsReadOnly => false;
 
         public void Add(T item)
         {
-            throw new NotImplementedException();
+            Array.Resize(ref _items, _items.Length + 1);
+            _items[_items.Length] = item;
         }
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            Array.Clear(_items);
+            _items = new T[0];
         }
 
         public bool Contains(T item)
         {
-            throw new NotImplementedException();
+            return IndexOf(item) == -1 ? false : true;
         }
 
         public void CopyTo(T[] array, int arrayIndex)
@@ -60,22 +63,45 @@ namespace yakov.Lab5
 
         public int IndexOf(T item)
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < _items.Length; i++)
+            {
+                if (Object.Equals(item, _items[i]))
+                    return i;
+            }
+
+            return -1;
         }
 
         public void Insert(int index, T item)
         {
-            throw new NotImplementedException();
+            Array.Resize(ref _items, _items.Length + 1);
+
+            for (int i = _items.Length - 1; i > index; i--)
+                _items[i] = _items[i - 1];
+
+            _items[index] = item;
         }
 
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            var itemIndex = IndexOf(item);
+            if (itemIndex == -1)
+            {
+                return false;
+            }
+            else
+            {
+                RemoveAt(itemIndex);
+                return true;
+            }
         }
 
         public void RemoveAt(int index)
         {
-            throw new NotImplementedException();
+            for (int i = index; i < _items.Length - 1; i++)
+                _items[i] = _items[i + 1];
+
+            Array.Resize(ref _items, _items.Length - 1);
         }
 
         IEnumerator IEnumerable.GetEnumerator()
