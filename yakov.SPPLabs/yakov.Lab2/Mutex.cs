@@ -39,10 +39,9 @@ namespace yakov.Lab2
         public void Unlock()
         {
             var currentThreadId = Thread.CurrentThread.ManagedThreadId;
-            if (Interlocked.CompareExchange(ref _activeThreadId, -1, currentThreadId) == -1)
-            {
-                _logger.Info($"{currentThreadId} unlocked.");
-            }
+            if (Interlocked.CompareExchange(ref _activeThreadId, -1, currentThreadId) != -1)
+                if (_activeThreadId == -1)
+                    _logger.Info($"{currentThreadId} unlocked.");
         }
     }
 }
