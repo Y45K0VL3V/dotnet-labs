@@ -58,14 +58,14 @@ namespace yakov.Lab5
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return (IEnumerator<T>)_items.GetEnumerator();
         }
 
         public int IndexOf(T item)
         {
             for (int i = 0; i < _items.Length; i++)
             {
-                if (Object.Equals(item, _items[i]))
+                if (Equals(item, _items[i]))
                     return i;
             }
 
@@ -106,7 +106,7 @@ namespace yakov.Lab5
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
         }
     }
 }
