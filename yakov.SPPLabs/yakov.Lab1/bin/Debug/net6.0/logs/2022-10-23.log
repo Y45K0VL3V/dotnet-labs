@@ -1,0 +1,587 @@
+2022-10-23 18:37:26.6244 INFO TaskQueue created.
+2022-10-23 18:37:26.6833 INFO Max threads amount - 100.
+2022-10-23 18:37:26.6833 INFO 9 thread - started.
+2022-10-23 18:37:26.6833 INFO 10 thread - started.
+2022-10-23 18:37:26.6833 INFO 11 thread - started.
+2022-10-23 18:37:26.6833 INFO 12 thread - started.
+2022-10-23 18:37:26.6833 INFO 13 thread - started.
+2022-10-23 18:37:26.6833 INFO 14 thread - started.
+2022-10-23 18:37:26.6833 INFO 15 thread - started.
+2022-10-23 18:37:26.6833 INFO 16 thread - started.
+2022-10-23 18:37:26.6833 INFO 17 thread - started.
+2022-10-23 18:37:26.6833 INFO 18 thread - started.
+2022-10-23 18:37:26.6833 INFO 19 thread - started.
+2022-10-23 18:37:26.6833 INFO 20 thread - started.
+2022-10-23 18:37:26.6833 INFO 21 thread - started.
+2022-10-23 18:37:26.6833 INFO 22 thread - started.
+2022-10-23 18:37:26.6833 INFO 23 thread - started.
+2022-10-23 18:37:26.6833 INFO 24 thread - started.
+2022-10-23 18:37:26.6833 INFO 25 thread - started.
+2022-10-23 18:37:26.6833 INFO 26 thread - started.
+2022-10-23 18:37:26.6833 INFO 27 thread - started.
+2022-10-23 18:37:26.6833 INFO 28 thread - started.
+2022-10-23 18:37:26.6833 INFO 29 thread - started.
+2022-10-23 18:37:26.6833 INFO 30 thread - started.
+2022-10-23 18:37:26.6833 INFO 31 thread - started.
+2022-10-23 18:37:26.6833 INFO 32 thread - started.
+2022-10-23 18:37:26.6833 INFO 33 thread - started.
+2022-10-23 18:37:26.6833 INFO 34 thread - started.
+2022-10-23 18:37:26.6833 INFO 35 thread - started.
+2022-10-23 18:37:26.6833 INFO 36 thread - started.
+2022-10-23 18:37:26.6833 INFO 37 thread - started.
+2022-10-23 18:37:26.6833 INFO 38 thread - started.
+2022-10-23 18:37:26.6833 INFO 39 thread - started.
+2022-10-23 18:37:26.6833 INFO 40 thread - started.
+2022-10-23 18:37:26.6833 INFO 41 thread - started.
+2022-10-23 18:37:26.6833 INFO 42 thread - started.
+2022-10-23 18:37:26.6833 INFO 43 thread - started.
+2022-10-23 18:37:26.6833 INFO 44 thread - started.
+2022-10-23 18:37:26.6833 INFO 45 thread - started.
+2022-10-23 18:37:26.6833 INFO 46 thread - started.
+2022-10-23 18:37:26.6833 INFO 47 thread - started.
+2022-10-23 18:37:26.6833 INFO 48 thread - started.
+2022-10-23 18:37:26.6833 INFO 49 thread - started.
+2022-10-23 18:37:26.6833 INFO 50 thread - started.
+2022-10-23 18:37:26.6833 INFO 51 thread - started.
+2022-10-23 18:37:26.6833 INFO 52 thread - started.
+2022-10-23 18:37:26.6833 INFO 53 thread - started.
+2022-10-23 18:37:26.6833 INFO 54 thread - started.
+2022-10-23 18:37:26.6833 INFO 55 thread - started.
+2022-10-23 18:37:26.6833 INFO 56 thread - started.
+2022-10-23 18:37:26.6833 INFO 57 thread - started.
+2022-10-23 18:37:26.6833 INFO 58 thread - started.
+2022-10-23 18:37:26.6833 INFO 59 thread - started.
+2022-10-23 18:37:26.6833 INFO 60 thread - started.
+2022-10-23 18:37:26.6833 INFO 61 thread - started.
+2022-10-23 18:37:26.6833 INFO 62 thread - started.
+2022-10-23 18:37:26.6833 INFO 63 thread - started.
+2022-10-23 18:37:26.6833 INFO 64 thread - started.
+2022-10-23 18:37:26.6833 INFO 65 thread - started.
+2022-10-23 18:37:26.6833 INFO 66 thread - started.
+2022-10-23 18:37:26.6833 INFO 67 thread - started.
+2022-10-23 18:37:26.6833 INFO 68 thread - started.
+2022-10-23 18:37:26.6833 INFO 69 thread - started.
+2022-10-23 18:37:26.6833 INFO 70 thread - started.
+2022-10-23 18:37:26.6833 INFO 71 thread - started.
+2022-10-23 18:37:26.6833 INFO 72 thread - started.
+2022-10-23 18:37:26.6833 INFO 73 thread - started.
+2022-10-23 18:37:26.6833 INFO 74 thread - started.
+2022-10-23 18:37:26.6833 INFO 75 thread - started.
+2022-10-23 18:37:26.6833 INFO 76 thread - started.
+2022-10-23 18:37:26.6833 INFO 77 thread - started.
+2022-10-23 18:37:26.6833 INFO 78 thread - started.
+2022-10-23 18:37:26.6833 INFO 79 thread - started.
+2022-10-23 18:37:26.6833 INFO 80 thread - started.
+2022-10-23 18:37:26.6833 INFO 81 thread - started.
+2022-10-23 18:37:26.6833 INFO 82 thread - started.
+2022-10-23 18:37:26.6833 INFO 83 thread - started.
+2022-10-23 18:37:26.6833 INFO 84 thread - started.
+2022-10-23 18:37:26.6833 INFO 85 thread - started.
+2022-10-23 18:37:26.6833 INFO 86 thread - started.
+2022-10-23 18:37:26.6833 INFO 87 thread - started.
+2022-10-23 18:37:26.6833 INFO 88 thread - started.
+2022-10-23 18:37:26.6833 INFO 89 thread - started.
+2022-10-23 18:37:26.6833 INFO 90 thread - started.
+2022-10-23 18:37:26.6833 INFO 91 thread - started.
+2022-10-23 18:37:26.6833 INFO 92 thread - started.
+2022-10-23 18:37:26.6833 INFO 93 thread - started.
+2022-10-23 18:37:26.6833 INFO 94 thread - started.
+2022-10-23 18:37:26.6833 INFO 95 thread - started.
+2022-10-23 18:37:26.6833 INFO 96 thread - started.
+2022-10-23 18:37:26.6833 INFO 97 thread - started.
+2022-10-23 18:37:26.6833 INFO 98 thread - started.
+2022-10-23 18:37:26.6833 INFO 99 thread - started.
+2022-10-23 18:37:26.6833 INFO 100 thread - started.
+2022-10-23 18:37:26.6833 INFO 101 thread - started.
+2022-10-23 18:37:26.6833 INFO 102 thread - started.
+2022-10-23 18:37:26.6833 INFO 103 thread - started.
+2022-10-23 18:37:26.6833 INFO 104 thread - started.
+2022-10-23 18:37:26.6833 INFO 105 thread - started.
+2022-10-23 18:37:26.6833 INFO 106 thread - started.
+2022-10-23 18:37:26.6833 INFO 107 thread - started.
+2022-10-23 18:37:26.6833 INFO 108 thread - started.
+2022-10-23 18:37:27.0961 INFO Directory copier created
+2022-10-23 18:37:27.0961 INFO Start coping C:\Users\yakov\Downloads\Telegram Desktop -> C:\Users\yakov\OneDrive\Рабочий стол\ggtest.
+2022-10-23 18:37:27.1129 INFO 98 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\01-2-asnfrt.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\01-2-asnfrt.pdf.
+2022-10-23 18:37:27.1129 INFO 17 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Инструкция Скидки 2021.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Инструкция Скидки 2021.docx.
+2022-10-23 18:37:27.1129 INFO 91 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_8580.MP4 to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_8580.MP4.
+2022-10-23 18:37:27.1129 INFO 107 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_69.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_69.png.
+2022-10-23 18:37:27.1129 INFO 43 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\rus-theory.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\rus-theory.pdf.
+2022-10-23 18:37:27.1129 INFO 37 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_72.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_72.png.
+2022-10-23 18:37:27.1129 INFO 67 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Lab5V19FarCallGlob.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Lab5V19FarCallGlob.ASM.
+2022-10-23 18:37:27.1129 INFO 61 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Lab5V19FarCallReg.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Lab5V19FarCallReg.ASM.
+2022-10-23 18:37:27.1129 INFO 68 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Innowise Test Task - SQL .docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Innowise Test Task - SQL .docx.
+2022-10-23 18:37:27.1129 INFO 80 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_0093.HEIC to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_0093.HEIC.
+2022-10-23 18:37:27.1129 INFO 104 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-30-00.jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-30-00.jpg.
+2022-10-23 18:37:27.1129 INFO 48 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\PTC_Mathcad_15.0_M045_ENG.rar to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\PTC_Mathcad_15.0_M045_ENG.rar.
+2022-10-23 18:37:27.1129 INFO 94 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_63.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_63.png.
+2022-10-23 18:37:27.1129 INFO 25 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Методичка ОЗИиУИС ПЗ №2.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Методичка ОЗИиУИС ПЗ №2.pdf.
+2022-10-23 18:37:27.1129 INFO 70 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_0095.HEIC to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_0095.HEIC.
+2022-10-23 18:37:27.1129 INFO 82 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Example.zip to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Example.zip.
+2022-10-23 18:37:27.1129 INFO 105 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_59.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_59.png.
+2022-10-23 18:37:27.1129 INFO 56 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab2.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab2.docx.
+2022-10-23 18:37:27.1129 INFO 96 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Labs.EAP to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Labs.EAP.
+2022-10-23 18:37:27.1129 INFO 63 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\back.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\back.png.
+2022-10-23 18:37:27.1129 INFO 73 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-10-08_00-19-31.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-10-08_00-19-31.png.
+2022-10-23 18:37:27.1129 INFO 34 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-30-00 (2).jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-30-00 (2).jpg.
+2022-10-23 18:37:27.1129 INFO 40 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-12-54-removebg-preview (1).png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-12-54-removebg-preview (1).png.
+2022-10-23 18:37:27.1129 INFO 69 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_20210216_160504_615___копия-removebg-preview.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_20210216_160504_615___копия-removebg-preview.png.
+2022-10-23 18:37:27.1129 INFO 71 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-05-16_00-23-20.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-05-16_00-23-20.png.
+2022-10-23 18:37:27.1129 INFO 93 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\экз вопросы_КСиС.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\экз вопросы_КСиС.docx.
+2022-10-23 18:37:27.1129 INFO 74 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_0094.HEIC to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_0094.HEIC.
+2022-10-23 18:37:27.1129 INFO 75 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Bahtizin_nadej.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Bahtizin_nadej.pdf.
+2022-10-23 18:37:27.1129 INFO 20 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон .pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон .pptx.
+2022-10-23 18:37:27.1129 INFO 106 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Скан_20211003 (2).jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Скан_20211003 (2).jpg.
+2022-10-23 18:37:27.1129 INFO 87 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\051003_spisok.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\051003_spisok.xlsx.
+2022-10-23 18:37:27.1129 INFO 33 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\приказ_о_проведении_конкурса_по_переводу_на_бюджет.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\приказ_о_проведении_конкурса_по_переводу_на_бюджет.pdf.
+2022-10-23 18:37:27.1129 INFO 41 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab1.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab1.docx.
+2022-10-23 18:37:27.1129 INFO 77 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Client.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Client.pdf.
+2022-10-23 18:37:27.1129 INFO 27 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (4).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (4).pptx.
+2022-10-23 18:37:27.1129 INFO 23 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\бланки по пат.иссл.doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\бланки по пат.иссл.doc.
+2022-10-23 18:37:27.1129 INFO 38 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Задания ОСиСП.txt to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Задания ОСиСП.txt.
+2022-10-23 18:37:27.1129 INFO 59 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\lab2_php_scripts.rar to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\lab2_php_scripts.rar.
+2022-10-23 18:37:27.1129 INFO 62 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Manager.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Manager.pdf.
+2022-10-23 18:37:27.1129 INFO 44 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\SWR.RAR to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\SWR.RAR.
+2022-10-23 18:37:27.1129 INFO 84 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\19.01.2022.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\19.01.2022.pdf.
+2022-10-23 18:37:27.1129 INFO 64 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Это я.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Это я.png.
+2022-10-23 18:37:27.1129 INFO 66 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (2).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (2).pptx.
+2022-10-23 18:37:27.1129 INFO 13 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\СПП.zip to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПП.zip.
+2022-10-23 18:37:27.1129 INFO 58 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_8455.MOV to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_8455.MOV.
+2022-10-23 18:37:27.1129 INFO 60 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\LabProc.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\LabProc.ASM.
+2022-10-23 18:37:27.1129 INFO 16 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\группы 051003.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\группы 051003.docx.
+2022-10-23 18:37:27.1129 INFO 97 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\051003_список (2).xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\051003_список (2).xlsx.
+2022-10-23 18:37:27.1129 INFO 89 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Fly.exe to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Fly.exe.
+2022-10-23 18:37:27.1129 INFO 100 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-04-16_20-06-57.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-04-16_20-06-57.png.
+2022-10-23 18:37:27.1129 INFO 103 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Lab5V19Stack.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Lab5V19Stack.ASM.
+2022-10-23 18:37:27.1129 INFO 55 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab4.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab4.docx.
+2022-10-23 18:37:27.1129 INFO 19 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ПарфюмТрейдСвет.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ПарфюмТрейдСвет.xlsx.
+2022-10-23 18:37:27.1129 INFO 102 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-03-19_02-24-58.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-03-19_02-24-58.png.
+2022-10-23 18:37:27.1129 INFO 36 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_75.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_75.png.
+2022-10-23 18:37:27.1129 INFO 42 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_71.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_71.png.
+2022-10-23 18:37:27.1129 INFO 76 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ЭРУД НПО 2016 v3.rar to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ЭРУД НПО 2016 v3.rar.
+2022-10-23 18:37:27.1129 INFO 72 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\InfoAboutOrder (2).pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\InfoAboutOrder (2).pdf.
+2022-10-23 18:37:27.1129 INFO 49 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-37-07.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-37-07.png.
+2022-10-23 18:37:27.1129 INFO 108 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\css\style.css to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\css\style.css.
+2022-10-23 18:37:27.1129 INFO 88 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\04-1-ertymf.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\04-1-ertymf.pdf.
+2022-10-23 18:37:27.1129 INFO 78 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-08-08_02-14-30.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-08-08_02-14-30.png.
+2022-10-23 18:37:27.1129 INFO 22 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\группы 051003 (2).docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\группы 051003 (2).docx.
+2022-10-23 18:37:27.1129 INFO 51 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\OSiSP_ch2_Metoda.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\OSiSP_ch2_Metoda.pdf.
+2022-10-23 18:37:27.1129 INFO 29 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_77.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_77.png.
+2022-10-23 18:37:27.1129 INFO 57 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\OSiSP_ch1_Metoda.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\OSiSP_ch1_Metoda.pdf.
+2022-10-23 18:37:27.1129 INFO 28 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\~$П лаб раб.doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\~$П лаб раб.doc.
+2022-10-23 18:37:27.1129 INFO 53 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab3.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab3.docx.
+2022-10-23 18:37:27.1129 INFO 45 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_64.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_64.png.
+2022-10-23 18:37:27.1129 INFO 52 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\back@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\back@2x.png.
+2022-10-23 18:37:27.1129 INFO 10 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ПЗ №4.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ПЗ №4.docx.
+2022-10-23 18:37:27.1129 INFO 11 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ПарфюмТрейдВода.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ПарфюмТрейдВода.xlsx.
+2022-10-23 18:37:27.1129 INFO 81 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\12.01.2022.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\12.01.2022.pdf.
+2022-10-23 18:37:27.1129 INFO 86 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\12.01.2022.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\12.01.2022.xlsx.
+2022-10-23 18:37:27.1129 INFO 92 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\messages.html to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\messages.html.
+2022-10-23 18:37:27.1129 INFO 39 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\TI.zip to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\TI.zip.
+2022-10-23 18:37:27.1129 INFO 9 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон.pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон.pptx.
+2022-10-23 18:37:27.1129 INFO 21 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Указания к выполнению ЛР1-1.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Указания к выполнению ЛР1-1.pdf.
+2022-10-23 18:37:27.1129 INFO 15 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон(final).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон(final).pptx.
+2022-10-23 18:37:27.1129 INFO 95 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\СПИСОК%20ГРУППЫ-222.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПИСОК%20ГРУППЫ-222.docx.
+2022-10-23 18:37:27.1129 INFO 26 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (3).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (3).pptx.
+2022-10-23 18:37:27.1129 INFO 14 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (5).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (5).pptx.
+2022-10-23 18:37:27.1129 INFO 32 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Приложение А (авторский договор).doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Приложение А (авторский договор).doc.
+2022-10-23 18:37:27.1129 INFO 46 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_62.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_62.png.
+2022-10-23 18:37:27.1129 INFO 99 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_61.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_61.png.
+2022-10-23 18:37:27.1129 INFO 65 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\InfoAboutOrder.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\InfoAboutOrder.pdf.
+2022-10-23 18:37:27.1129 INFO 47 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Laba1_new.mdj to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Laba1_new.mdj.
+2022-10-23 18:37:27.1129 INFO 12 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\СПП_Вопросы_и_задания.txt to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПП_Вопросы_и_задания.txt.
+2022-10-23 18:37:27.1129 INFO 50 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ORVI.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ORVI.docx.
+2022-10-23 18:37:27.1129 INFO 90 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\image-removebg-preview.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image-removebg-preview.png.
+2022-10-23 18:37:27.1129 INFO 24 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Операционные_системы_и_системное_программное_обеспечение_Автосохраненный.pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Операционные_системы_и_системное_программное_обеспечение_Автосохраненный.pptx.
+2022-10-23 18:37:27.1129 INFO 83 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\051003_список.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\051003_список.xlsx.
+2022-10-23 18:37:27.1129 INFO 35 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_60.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_60.png.
+2022-10-23 18:37:27.1129 INFO 54 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab5.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab5.docx.
+2022-10-23 18:37:27.1129 INFO 30 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Вопросы по ЛР3.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Вопросы по ЛР3.docx.
+2022-10-23 18:37:27.1129 INFO 79 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\19.01.2022.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\19.01.2022.xlsx.
+2022-10-23 18:37:27.1129 INFO 85 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_3651.JPG to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_3651.JPG.
+2022-10-23 18:37:27.1129 INFO 18 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\СПП лаб раб.doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПП лаб раб.doc.
+2022-10-23 18:37:27.1129 INFO 31 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Вопросы по ЛР4.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Вопросы по ЛР4.docx.
+2022-10-23 18:37:27.1129 INFO 101 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_76.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_76.png.
+2022-10-23 18:37:27.1305 INFO 63 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\back.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\back.png.
+2022-10-23 18:37:27.1444 INFO 63 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_call.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_call.png.
+2022-10-23 18:37:27.1444 INFO 89 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Fly.exe to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Fly.exe.
+2022-10-23 18:37:27.1444 INFO 71 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-05-16_00-23-20.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-05-16_00-23-20.png.
+2022-10-23 18:37:27.1444 INFO 73 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-10-08_00-19-31.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-10-08_00-19-31.png.
+2022-10-23 18:37:27.1604 INFO 89 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_call@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_call@2x.png.
+2022-10-23 18:37:27.1604 INFO 100 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-04-16_20-06-57.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-04-16_20-06-57.png.
+2022-10-23 18:37:27.1737 INFO 108 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\css\style.css to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\css\style.css.
+2022-10-23 18:37:27.1737 INFO 52 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\back@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\back@2x.png.
+2022-10-23 18:37:27.1737 INFO 71 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_contact.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_contact.png.
+2022-10-23 18:37:27.1737 INFO 73 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_contact@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_contact@2x.png.
+2022-10-23 18:37:27.1932 INFO 52 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_file.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_file.png.
+2022-10-23 18:37:27.1932 INFO 100 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_file@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_file@2x.png.
+2022-10-23 18:37:27.1932 INFO 89 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_call@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_call@2x.png.
+2022-10-23 18:37:27.1932 INFO 104 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-30-00.jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-30-00.jpg.
+2022-10-23 18:37:27.1932 INFO 71 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_contact.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_contact.png.
+2022-10-23 18:37:27.2073 INFO 17 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Инструкция Скидки 2021.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Инструкция Скидки 2021.docx.
+2022-10-23 18:37:27.2073 INFO 77 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Client.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Client.pdf.
+2022-10-23 18:37:27.2073 INFO 92 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\messages.html to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\messages.html.
+2022-10-23 18:37:27.2073 INFO 108 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_game.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_game.png.
+2022-10-23 18:37:27.2211 INFO 63 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_call.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_call.png.
+2022-10-23 18:37:27.2211 INFO 52 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_file.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_file.png.
+2022-10-23 18:37:27.2211 INFO 73 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_contact@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_contact@2x.png.
+2022-10-23 18:37:27.2211 INFO 104 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_game@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_game@2x.png.
+2022-10-23 18:37:27.2211 INFO 71 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_music@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_music@2x.png.
+2022-10-23 18:37:27.2211 INFO 17 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_music.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_music.png.
+2022-10-23 18:37:27.2211 INFO 89 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_location@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_location@2x.png.
+2022-10-23 18:37:27.2211 INFO 77 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_location.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_location.png.
+2022-10-23 18:37:27.2211 INFO 92 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_photo.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_photo.png.
+2022-10-23 18:37:27.2211 INFO 41 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab1.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab1.docx.
+2022-10-23 18:37:27.2211 INFO 102 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-03-19_02-24-58.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-03-19_02-24-58.png.
+2022-10-23 18:37:27.2394 INFO 73 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_shop.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_shop.png.
+2022-10-23 18:37:27.2394 INFO 52 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_shop@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_shop@2x.png.
+2022-10-23 18:37:27.2394 INFO 63 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_photo@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_photo@2x.png.
+2022-10-23 18:37:27.2394 INFO 94 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_63.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_63.png.
+2022-10-23 18:37:27.2552 INFO 104 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_game@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_game@2x.png.
+2022-10-23 18:37:27.2552 INFO 108 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_game.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_game.png.
+2022-10-23 18:37:27.2552 INFO 41 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_video.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_video.png.
+2022-10-23 18:37:27.2552 INFO 102 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_video@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_video@2x.png.
+2022-10-23 18:37:27.2711 INFO 100 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_file@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_file@2x.png.
+2022-10-23 18:37:27.2711 INFO 71 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_music@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_music@2x.png.
+2022-10-23 18:37:27.2711 INFO 104 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_voice.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_voice.png.
+2022-10-23 18:37:27.2711 INFO 63 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_photo@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_photo@2x.png.
+2022-10-23 18:37:27.2711 INFO 94 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_voice@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_voice@2x.png.
+2022-10-23 18:37:27.2711 INFO 108 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_calls.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_calls.png.
+2022-10-23 18:37:27.2711 INFO 102 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_video@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_video@2x.png.
+2022-10-23 18:37:27.2711 INFO 41 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_video.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_video.png.
+2022-10-23 18:37:27.2852 INFO 104 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_voice.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_voice.png.
+2022-10-23 18:37:27.2852 INFO 100 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_chats.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_chats.png.
+2022-10-23 18:37:27.2852 INFO 71 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_calls@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_calls@2x.png.
+2022-10-23 18:37:27.2852 INFO 63 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_contacts@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_contacts@2x.png.
+2022-10-23 18:37:27.2852 INFO 102 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_chats@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_chats@2x.png.
+2022-10-23 18:37:27.2852 INFO 41 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_contacts.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_contacts.png.
+2022-10-23 18:37:27.2852 INFO 34 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-30-00 (2).jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-30-00 (2).jpg.
+2022-10-23 18:37:27.2852 INFO 97 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\051003_список (2).xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\051003_список (2).xlsx.
+2022-10-23 18:37:27.3035 INFO 34 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_frequent.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_frequent.png.
+2022-10-23 18:37:27.3035 INFO 97 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_frequent@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_frequent@2x.png.
+2022-10-23 18:37:27.3035 INFO 104 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_other.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_other.png.
+2022-10-23 18:37:27.3607 INFO 78 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\image_2022-08-08_02-14-30.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image_2022-08-08_02-14-30.png.
+2022-10-23 18:37:27.3607 INFO 89 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_location@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_location@2x.png.
+2022-10-23 18:37:27.3607 INFO 92 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_photo.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_photo.png.
+2022-10-23 18:37:27.3607 INFO 36 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_75.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_75.png.
+2022-10-23 18:37:27.3607 INFO 52 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_shop@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_shop@2x.png.
+2022-10-23 18:37:27.3607 INFO 73 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_shop.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_shop.png.
+2022-10-23 18:37:27.3607 INFO 94 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_voice@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_voice@2x.png.
+2022-10-23 18:37:27.3607 INFO 38 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Задания ОСиСП.txt to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Задания ОСиСП.txt.
+2022-10-23 18:37:27.3607 INFO 77 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_location.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_location.png.
+2022-10-23 18:37:27.3607 INFO 69 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_20210216_160504_615___копия-removebg-preview.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_20210216_160504_615___копия-removebg-preview.png.
+2022-10-23 18:37:27.3607 INFO 17 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\media_music.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\media_music.png.
+2022-10-23 18:37:27.3607 INFO 56 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab2.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab2.docx.
+2022-10-23 18:37:27.3607 INFO 58 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_8455.MOV to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_8455.MOV.
+2022-10-23 18:37:27.3607 INFO 28 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\~$П лаб раб.doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\~$П лаб раб.doc.
+2022-10-23 18:37:27.3607 INFO 23 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\бланки по пат.иссл.doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\бланки по пат.иссл.doc.
+2022-10-23 18:37:27.3607 INFO 47 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Laba1_new.mdj to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Laba1_new.mdj.
+2022-10-23 18:37:27.3607 INFO 65 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\InfoAboutOrder.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\InfoAboutOrder.pdf.
+2022-10-23 18:37:27.3607 INFO 71 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_calls@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_calls@2x.png.
+2022-10-23 18:37:27.3607 INFO 102 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_chats@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_chats@2x.png.
+2022-10-23 18:37:27.3607 INFO 41 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_contacts.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_contacts.png.
+2022-10-23 18:37:27.3607 INFO 97 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_frequent@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_frequent@2x.png.
+2022-10-23 18:37:27.3607 INFO 43 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\rus-theory.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\rus-theory.pdf.
+2022-10-23 18:37:27.3607 INFO 34 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_frequent.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_frequent.png.
+2022-10-23 18:37:27.3607 INFO 14 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (5).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (5).pptx.
+2022-10-23 18:37:27.3607 INFO 63 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_contacts@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_contacts@2x.png.
+2022-10-23 18:37:27.3607 INFO 12 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\СПП_Вопросы_и_задания.txt to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПП_Вопросы_и_задания.txt.
+2022-10-23 18:37:27.3607 INFO 16 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\группы 051003.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\группы 051003.docx.
+2022-10-23 18:37:27.3607 INFO 81 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\12.01.2022.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\12.01.2022.pdf.
+2022-10-23 18:37:27.3607 INFO 105 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_59.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_59.png.
+2022-10-23 18:37:27.3607 INFO 42 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_71.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_71.png.
+2022-10-23 18:37:27.3607 INFO 25 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Методичка ОЗИиУИС ПЗ №2.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Методичка ОЗИиУИС ПЗ №2.pdf.
+2022-10-23 18:37:27.3607 INFO 86 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\12.01.2022.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\12.01.2022.xlsx.
+2022-10-23 18:37:27.3607 INFO 40 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-12-54-removebg-preview (1).png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-12-54-removebg-preview (1).png.
+2022-10-23 18:37:27.3607 INFO 55 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab4.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab4.docx.
+2022-10-23 18:37:27.3607 INFO 70 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_0095.HEIC to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_0095.HEIC.
+2022-10-23 18:37:27.3607 INFO 104 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_other.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_other.png.
+2022-10-23 18:37:27.3607 INFO 13 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\СПП.zip to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПП.zip.
+2022-10-23 18:37:27.3607 INFO 84 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\19.01.2022.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\19.01.2022.pdf.
+2022-10-23 18:37:27.3607 INFO 60 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\LabProc.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\LabProc.ASM.
+2022-10-23 18:37:27.3607 INFO 64 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Это я.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Это я.png.
+2022-10-23 18:37:27.3745 INFO 53 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab3.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab3.docx.
+2022-10-23 18:37:27.3745 INFO 22 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\группы 051003 (2).docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\группы 051003 (2).docx.
+2022-10-23 18:37:27.3745 INFO 76 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ЭРУД НПО 2016 v3.rar to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ЭРУД НПО 2016 v3.rar.
+2022-10-23 18:37:27.3745 INFO 59 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\lab2_php_scripts.rar to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\lab2_php_scripts.rar.
+2022-10-23 18:37:27.3745 INFO 34 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_other@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_other@2x.png.
+2022-10-23 18:37:27.3745 INFO 92 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_sessions@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_sessions@2x.png.
+2022-10-23 18:37:27.3745 INFO 105 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\js\script.js to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\js\script.js.
+2022-10-23 18:37:27.3745 INFO 97 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\stickers\AnimatedSticker.tgs_thumb.jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\stickers\AnimatedSticker.tgs_thumb.jpg.
+2022-10-23 18:37:27.3745 INFO 23 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08 (1)\stickers\AnimatedSticker.tgs_thumb.jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08 (1)\stickers\AnimatedSticker.tgs_thumb.jpg.
+2022-10-23 18:37:27.3745 INFO 87 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\051003_spisok.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\051003_spisok.xlsx.
+2022-10-23 18:37:27.3745 INFO 32 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Приложение А (авторский договор).doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Приложение А (авторский договор).doc.
+2022-10-23 18:37:27.3745 INFO 82 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Example.zip to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Example.zip.
+2022-10-23 18:37:27.3745 INFO 100 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_chats.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_chats.png.
+2022-10-23 18:37:27.3745 INFO 95 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\СПИСОК%20ГРУППЫ-222.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПИСОК%20ГРУППЫ-222.docx.
+2022-10-23 18:37:27.3745 INFO 45 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_64.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_64.png.
+2022-10-23 18:37:27.3745 INFO 83 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\051003_список.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\051003_список.xlsx.
+2022-10-23 18:37:27.3745 INFO 106 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Скан_20211003 (2).jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Скан_20211003 (2).jpg.
+2022-10-23 18:37:27.3745 INFO 68 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Innowise Test Task - SQL .docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Innowise Test Task - SQL .docx.
+2022-10-23 18:37:27.3745 INFO 92 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_sessions@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_sessions@2x.png.
+2022-10-23 18:37:27.3907 INFO 35 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_60.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_60.png.
+2022-10-23 18:37:27.3907 INFO 90 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\image-removebg-preview.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\image-removebg-preview.png.
+2022-10-23 18:37:27.3907 INFO 97 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\stickers\AnimatedSticker.tgs_thumb.jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\stickers\AnimatedSticker.tgs_thumb.jpg.
+2022-10-23 18:37:27.3745 INFO 96 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Labs.EAP to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Labs.EAP.
+2022-10-23 18:37:27.3907 INFO 62 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Manager.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Manager.pdf.
+2022-10-23 18:37:27.3907 INFO 23 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08 (1)\stickers\AnimatedSticker.tgs_thumb.jpg to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08 (1)\stickers\AnimatedSticker.tgs_thumb.jpg.
+2022-10-23 18:37:27.3745 INFO 29 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_77.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_77.png.
+2022-10-23 18:37:27.3745 INFO 18 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\СПП лаб раб.doc to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\СПП лаб раб.doc.
+2022-10-23 18:37:27.3745 INFO 11 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ПарфюмТрейдВода.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ПарфюмТрейдВода.xlsx.
+2022-10-23 18:37:27.3745 INFO 98 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\01-2-asnfrt.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\01-2-asnfrt.pdf.
+2022-10-23 18:37:27.3745 INFO 103 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Lab5V19Stack.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Lab5V19Stack.ASM.
+2022-10-23 18:37:27.3745 INFO 43 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_photos.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_photos.png.
+2022-10-23 18:37:27.3745 INFO 41 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_photos@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_photos@2x.png.
+2022-10-23 18:37:27.3745 INFO 56 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_sessions.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_sessions.png.
+2022-10-23 18:37:27.3745 INFO 71 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_web.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_web.png.
+2022-10-23 18:37:27.3745 INFO 69 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_web@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_web@2x.png.
+2022-10-23 18:37:27.3745 INFO 65 thread - start copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08 (1)\result.json to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08 (1)\result.json.
+2022-10-23 18:37:27.3907 INFO 107 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_69.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_69.png.
+2022-10-23 18:37:27.3907 INFO 93 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\экз вопросы_КСиС.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\экз вопросы_КСиС.docx.
+2022-10-23 18:37:27.3907 INFO 101 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_76.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_76.png.
+2022-10-23 18:37:27.3907 INFO 50 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ORVI.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ORVI.docx.
+2022-10-23 18:37:27.3907 INFO 74 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_0094.HEIC to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_0094.HEIC.
+2022-10-23 18:37:27.3907 INFO 27 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (4).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (4).pptx.
+2022-10-23 18:37:27.3907 INFO 99 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_61.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_61.png.
+2022-10-23 18:37:27.3907 INFO 56 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_sessions.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_sessions.png.
+2022-10-23 18:37:27.3907 INFO 69 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_web@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_web@2x.png.
+2022-10-23 18:37:27.4072 INFO 34 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_other@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_other@2x.png.
+2022-10-23 18:37:27.4072 INFO 71 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_web.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_web.png.
+2022-10-23 18:37:27.4072 INFO 15 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон(final).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон(final).pptx.
+2022-10-23 18:37:27.3907 INFO 108 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_calls.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_calls.png.
+2022-10-23 18:37:27.4072 INFO 37 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_72.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_72.png.
+2022-10-23 18:37:27.4072 INFO 41 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_photos@2x.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_photos@2x.png.
+2022-10-23 18:37:27.4072 INFO 33 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\приказ_о_проведении_конкурса_по_переводу_на_бюджет.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\приказ_о_проведении_конкурса_по_переводу_на_бюджет.pdf.
+2022-10-23 18:37:27.4072 INFO 72 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\InfoAboutOrder (2).pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\InfoAboutOrder (2).pdf.
+2022-10-23 18:37:27.4072 INFO 30 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Вопросы по ЛР3.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Вопросы по ЛР3.docx.
+2022-10-23 18:37:27.4072 INFO 19 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ПарфюмТрейдСвет.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ПарфюмТрейдСвет.xlsx.
+2022-10-23 18:37:27.4072 INFO 43 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\images\section_photos.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\images\section_photos.png.
+2022-10-23 18:37:27.4072 INFO 80 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_0093.HEIC to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_0093.HEIC.
+2022-10-23 18:37:27.4072 INFO 79 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\19.01.2022.xlsx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\19.01.2022.xlsx.
+2022-10-23 18:37:27.4072 INFO 57 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\OSiSP_ch1_Metoda.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\OSiSP_ch1_Metoda.pdf.
+2022-10-23 18:37:27.4072 INFO 20 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон .pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон .pptx.
+2022-10-23 18:37:27.4221 INFO 88 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\04-1-ertymf.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\04-1-ertymf.pdf.
+2022-10-23 18:37:27.4221 INFO 61 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Lab5V19FarCallReg.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Lab5V19FarCallReg.ASM.
+2022-10-23 18:37:27.4221 INFO 67 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Lab5V19FarCallGlob.ASM to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Lab5V19FarCallGlob.ASM.
+2022-10-23 18:37:27.4221 INFO 10 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ПЗ №4.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ПЗ №4.docx.
+2022-10-23 18:37:27.4221 INFO 39 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\TI.zip to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\TI.zip.
+2022-10-23 18:37:27.4221 INFO 44 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\SWR.RAR to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\SWR.RAR.
+2022-10-23 18:37:27.4221 INFO 54 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\osasp_lab5.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\osasp_lab5.docx.
+2022-10-23 18:37:27.4221 INFO 51 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\OSiSP_ch2_Metoda.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\OSiSP_ch2_Metoda.pdf.
+2022-10-23 18:37:27.4221 INFO 21 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Указания к выполнению ЛР1-1.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Указания к выполнению ЛР1-1.pdf.
+2022-10-23 18:37:27.4221 INFO 49 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\photo_2022-04-19_21-37-07.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\photo_2022-04-19_21-37-07.png.
+2022-10-23 18:37:27.4400 INFO 105 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08\js\script.js to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08\js\script.js.
+2022-10-23 18:37:27.4400 INFO 66 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (2).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (2).pptx.
+2022-10-23 18:37:27.4400 INFO 46 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Screenshot_62.png to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Screenshot_62.png.
+2022-10-23 18:37:27.4400 INFO 75 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Bahtizin_nadej.pdf to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Bahtizin_nadej.pdf.
+2022-10-23 18:37:27.4400 INFO 26 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон (3).pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон (3).pptx.
+2022-10-23 18:37:27.4400 INFO 85 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_3651.JPG to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_3651.JPG.
+2022-10-23 18:37:27.4400 INFO 24 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Операционные_системы_и_системное_программное_обеспечение_Автосохраненный.pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Операционные_системы_и_системное_программное_обеспечение_Автосохраненный.pptx.
+2022-10-23 18:37:27.4551 INFO 9 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Хакатон.pptx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Хакатон.pptx.
+2022-10-23 18:37:27.4551 INFO 65 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\ChatExport_2022-08-08 (1)\result.json to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\ChatExport_2022-08-08 (1)\result.json.
+2022-10-23 18:37:27.4551 INFO 31 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\Вопросы по ЛР4.docx to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\Вопросы по ЛР4.docx.
+2022-10-23 18:37:27.5501 INFO 91 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\IMG_8580.MP4 to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\IMG_8580.MP4.
+2022-10-23 18:37:27.6534 INFO 48 thread - end copy C:\Users\yakov\Downloads\Telegram Desktop\PTC_Mathcad_15.0_M045_ENG.rar to C:\Users\yakov\OneDrive\Рабочий стол\ggtest\PTC_Mathcad_15.0_M045_ENG.rar.
+2022-10-23 18:37:27.6534 INFO End coping C:\Users\yakov\Downloads\Telegram Desktop -> C:\Users\yakov\OneDrive\Рабочий стол\ggtest.
+2022-10-23 18:37:27.6534 INFO Max threads amount - 0.
+2022-10-23 18:37:27.6613 INFO 9 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 10 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 11 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 12 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 13 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 14 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 15 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 16 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 17 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 18 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 19 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 20 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 21 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 22 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 23 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 24 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 25 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 26 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 27 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 28 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 29 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 30 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 31 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 32 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 33 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 34 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 35 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 36 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 37 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 38 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 39 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 40 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 41 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 42 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 43 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 44 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 45 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 46 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 47 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 48 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 49 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 50 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 51 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 52 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 53 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 54 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 55 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 56 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 57 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 58 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 59 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 60 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 61 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 62 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 63 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 64 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 65 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 66 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 67 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 68 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 69 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 70 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 71 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 72 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 73 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 74 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 75 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 76 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 77 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 78 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 79 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 80 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 81 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 82 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 83 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 84 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 85 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 86 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 87 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 88 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 89 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 90 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 91 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 92 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 93 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 94 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 95 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 96 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 97 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 98 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 99 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 100 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 101 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 102 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 103 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 104 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 105 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 106 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 107 thread - request to close.
+2022-10-23 18:37:27.6613 INFO 108 thread - request to close.
+2022-10-23 18:37:27.6613 INFO TaskQueue - disposed.
+2022-10-23 18:37:27.6613 INFO 18 thread - closed.
+2022-10-23 18:37:27.6613 INFO 63 thread - closed.
+2022-10-23 18:37:27.6613 INFO 55 thread - closed.
+2022-10-23 18:37:27.6613 INFO 96 thread - closed.
+2022-10-23 18:37:27.6613 INFO 94 thread - closed.
+2022-10-23 18:37:27.6613 INFO 58 thread - closed.
+2022-10-23 18:37:27.6613 INFO 72 thread - closed.
+2022-10-23 18:37:27.6613 INFO 106 thread - closed.
+2022-10-23 18:37:27.6613 INFO 50 thread - closed.
+2022-10-23 18:37:27.6613 INFO 61 thread - closed.
+2022-10-23 18:37:27.6613 INFO 65 thread - closed.
+2022-10-23 18:37:27.6613 INFO 29 thread - closed.
+2022-10-23 18:37:27.6613 INFO 9 thread - closed.
+2022-10-23 18:37:27.6613 INFO 10 thread - closed.
+2022-10-23 18:37:27.6613 INFO 11 thread - closed.
+2022-10-23 18:37:27.6613 INFO 12 thread - closed.
+2022-10-23 18:37:27.6613 INFO 13 thread - closed.
+2022-10-23 18:37:27.6613 INFO 14 thread - closed.
+2022-10-23 18:37:27.6613 INFO 15 thread - closed.
+2022-10-23 18:37:27.6613 INFO 16 thread - closed.
+2022-10-23 18:37:27.6613 INFO 17 thread - closed.
+2022-10-23 18:37:27.6613 INFO 19 thread - closed.
+2022-10-23 18:37:27.6613 INFO 20 thread - closed.
+2022-10-23 18:37:27.6613 INFO 21 thread - closed.
+2022-10-23 18:37:27.6613 INFO 22 thread - closed.
+2022-10-23 18:37:27.6613 INFO 23 thread - closed.
+2022-10-23 18:37:27.6613 INFO 24 thread - closed.
+2022-10-23 18:37:27.6613 INFO 25 thread - closed.
+2022-10-23 18:37:27.6613 INFO 26 thread - closed.
+2022-10-23 18:37:27.6613 INFO 27 thread - closed.
+2022-10-23 18:37:27.6613 INFO 28 thread - closed.
+2022-10-23 18:37:27.6613 INFO 30 thread - closed.
+2022-10-23 18:37:27.6613 INFO 31 thread - closed.
+2022-10-23 18:37:27.6613 INFO 32 thread - closed.
+2022-10-23 18:37:27.6613 INFO 33 thread - closed.
+2022-10-23 18:37:27.6613 INFO 34 thread - closed.
+2022-10-23 18:37:27.6613 INFO 35 thread - closed.
+2022-10-23 18:37:27.6613 INFO 36 thread - closed.
+2022-10-23 18:37:27.6613 INFO 37 thread - closed.
+2022-10-23 18:37:27.6613 INFO 38 thread - closed.
+2022-10-23 18:37:27.6613 INFO 39 thread - closed.
+2022-10-23 18:37:27.6613 INFO 40 thread - closed.
+2022-10-23 18:37:27.6613 INFO 41 thread - closed.
+2022-10-23 18:37:27.6613 INFO 42 thread - closed.
+2022-10-23 18:37:27.6613 INFO 43 thread - closed.
+2022-10-23 18:37:27.6613 INFO 44 thread - closed.
+2022-10-23 18:37:27.6613 INFO 45 thread - closed.
+2022-10-23 18:37:27.6613 INFO 46 thread - closed.
+2022-10-23 18:37:27.6613 INFO 47 thread - closed.
+2022-10-23 18:37:27.6613 INFO 48 thread - closed.
+2022-10-23 18:37:27.6613 INFO 49 thread - closed.
+2022-10-23 18:37:27.6613 INFO 51 thread - closed.
+2022-10-23 18:37:27.6613 INFO 52 thread - closed.
+2022-10-23 18:37:27.6613 INFO 53 thread - closed.
+2022-10-23 18:37:27.6613 INFO 54 thread - closed.
+2022-10-23 18:37:27.6613 INFO 56 thread - closed.
+2022-10-23 18:37:27.6613 INFO 57 thread - closed.
+2022-10-23 18:37:27.6613 INFO 59 thread - closed.
+2022-10-23 18:37:27.6613 INFO 60 thread - closed.
+2022-10-23 18:37:27.6613 INFO 62 thread - closed.
+2022-10-23 18:37:27.6613 INFO 64 thread - closed.
+2022-10-23 18:37:27.6613 INFO 66 thread - closed.
+2022-10-23 18:37:27.6613 INFO 67 thread - closed.
+2022-10-23 18:37:27.6613 INFO 68 thread - closed.
+2022-10-23 18:37:27.6613 INFO 69 thread - closed.
+2022-10-23 18:37:27.6613 INFO 70 thread - closed.
+2022-10-23 18:37:27.6613 INFO 71 thread - closed.
+2022-10-23 18:37:27.6613 INFO 73 thread - closed.
+2022-10-23 18:37:27.6613 INFO 74 thread - closed.
+2022-10-23 18:37:27.6613 INFO 75 thread - closed.
+2022-10-23 18:37:27.6613 INFO 76 thread - closed.
+2022-10-23 18:37:27.6613 INFO 77 thread - closed.
+2022-10-23 18:37:27.6613 INFO 78 thread - closed.
+2022-10-23 18:37:27.6613 INFO 79 thread - closed.
+2022-10-23 18:37:27.6613 INFO 80 thread - closed.
+2022-10-23 18:37:27.6613 INFO 81 thread - closed.
+2022-10-23 18:37:27.6613 INFO 82 thread - closed.
+2022-10-23 18:37:27.6613 INFO 83 thread - closed.
+2022-10-23 18:37:27.6613 INFO 84 thread - closed.
+2022-10-23 18:37:27.6613 INFO 85 thread - closed.
+2022-10-23 18:37:27.6613 INFO 86 thread - closed.
+2022-10-23 18:37:27.6613 INFO 87 thread - closed.
+2022-10-23 18:37:27.6613 INFO 88 thread - closed.
+2022-10-23 18:37:27.6613 INFO 89 thread - closed.
+2022-10-23 18:37:27.6613 INFO 90 thread - closed.
+2022-10-23 18:37:27.6613 INFO 91 thread - closed.
+2022-10-23 18:37:27.6613 INFO 92 thread - closed.
+2022-10-23 18:37:27.6613 INFO 93 thread - closed.
+2022-10-23 18:37:27.6613 INFO 95 thread - closed.
+2022-10-23 18:37:27.6613 INFO 97 thread - closed.
+2022-10-23 18:37:27.6613 INFO 98 thread - closed.
+2022-10-23 18:37:27.6613 INFO 99 thread - closed.
+2022-10-23 18:37:27.6613 INFO 100 thread - closed.
+2022-10-23 18:37:27.6613 INFO 101 thread - closed.
+2022-10-23 18:37:27.6613 INFO 102 thread - closed.
+2022-10-23 18:37:27.6613 INFO 103 thread - closed.
+2022-10-23 18:37:27.6613 INFO 104 thread - closed.
+2022-10-23 18:37:27.6613 INFO 105 thread - closed.
+2022-10-23 18:37:27.6613 INFO 107 thread - closed.
+2022-10-23 18:37:27.6613 INFO 108 thread - closed.

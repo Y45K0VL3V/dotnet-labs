@@ -90,16 +90,18 @@ namespace yakov.ThreadPool
             }
             else
             {
+                Action? threadsStart = null;
                 for (int i = (int)threadsDifference; i != 0;)
                 {
                     CancellationTokenSource tokenSource = new();
                     Thread thread = new Thread(() => Execute(tokenSource.Token));
-                    thread.Start();
+                    threadsStart += () => thread.Start();
                     _logger.Info($"{thread.ManagedThreadId} thread - started.");
 
                     if (_threadsState.TryAdd(thread.ManagedThreadId, tokenSource))
                         i++;
                 }
+                threadsStart?.Invoke();
             }
         }
 
@@ -116,11 +118,9 @@ namespace yakov.ThreadPool
                 {
                     currentTask.Invoke();
                     OnTaskComplete?.Invoke();
-                    lock (_lock)
-                    {
-                        _completedTasksAmount++;
-                    }
+                    Interlocked.Add(ref _completedTasksAmount, 1);
                 }
+                Thread.Sleep(10);
             }
 
             _threadsState.TryRemove(Thread.CurrentThread.ManagedThreadId, out var tokenSource);

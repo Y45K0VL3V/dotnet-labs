@@ -1,8 +1,4 @@
-﻿using System.Reflection;
-using yakov.AssemblyControl;
-using yakov.Lab4;
-using yakov.ThreadPool;
-using Parallel = yakov.Lab4.Parallel;
+﻿using Parallel = yakov.Lab4.Parallel;
 
 //Console.WriteLine("Enter assembly path:");
 //string path = Console.ReadLine();
@@ -18,4 +14,4 @@ using Parallel = yakov.Lab4.Parallel;
 //            Console.WriteLine(type.FullName);
 //}
 
-Parallel.WaitAll(new Action[] { () => Console.WriteLine("f"), () => Console.WriteLine("sdfsdf")});
+//Parallel.WaitAll(new Action[] { () => Console.WriteLine("f"), () => Console.WriteLine("sdfsdf")});
