@@ -16,3 +16,9 @@ C:\University\СПП\yakov.SPPLabs\yakov.Lab3\obj\Debug\net6.0\refint\yakov.Lab3
 C:\University\СПП\yakov.SPPLabs\yakov.Lab3\obj\Debug\net6.0\yakov.Lab3.pdb
 C:\University\СПП\yakov.SPPLabs\yakov.Lab3\obj\Debug\net6.0\yakov.Lab3.genruntimeconfig.cache
 C:\University\СПП\yakov.SPPLabs\yakov.Lab3\obj\Debug\net6.0\ref\yakov.Lab3.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab3\bin\Debug\net6.0\NLog.config
+C:\University\СПП\yakov.SPPLabs\yakov.Lab3\bin\Debug\net6.0\NLog.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab3\bin\Debug\net6.0\yakov.Logger.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab3\bin\Debug\net6.0\yakov.Logger.pdb
+C:\University\СПП\yakov.SPPLabs\yakov.Lab3\bin\Debug\net6.0\yakov.ThreadPool.dll
+C:\University\СПП\yakov.SPPLabs\yakov.Lab3\bin\Debug\net6.0\yakov.ThreadPool.pdb

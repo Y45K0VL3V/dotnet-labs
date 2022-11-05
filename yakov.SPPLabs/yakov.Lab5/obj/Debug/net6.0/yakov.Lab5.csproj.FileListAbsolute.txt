@@ -1,0 +1,5 @@
+C:\University\СПП\yakov.SPPLabs\yakov.Lab5\obj\Debug\net6.0\yakov.Lab5.csproj.AssemblyReference.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Lab5\obj\Debug\net6.0\yakov.Lab5.GeneratedMSBuildEditorConfig.editorconfig
+C:\University\СПП\yakov.SPPLabs\yakov.Lab5\obj\Debug\net6.0\yakov.Lab5.AssemblyInfoInputs.cache
+C:\University\СПП\yakov.SPPLabs\yakov.Lab5\obj\Debug\net6.0\yakov.Lab5.AssemblyInfo.cs
+C:\University\СПП\yakov.SPPLabs\yakov.Lab5\obj\Debug\net6.0\yakov.Lab5.csproj.CoreCompileInputs.cache

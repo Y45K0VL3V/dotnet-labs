@@ -11,7 +11,7 @@ namespace yakov.Lab4.TestClasses
     {
     }
 
-    public class Class2
+    internal class Class2
     {
     }
 

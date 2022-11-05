@@ -39,6 +39,20 @@
             "copyToOutput": false
           }
         }
+      },
+      "yakov.ThreadPool/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NLog": "5.0.4",
+          "NLog.Config": "4.7.15"
+        },
+        "compile": {
+          "bin/placeholder/yakov.ThreadPool.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/yakov.ThreadPool.dll": {}
+        }
       }
     }
   },
@@ -94,12 +108,18 @@
         "nlog.schema.4.7.15.nupkg.sha512",
         "nlog.schema.nuspec"
       ]
+    },
+    "yakov.ThreadPool/1.0.0": {
+      "type": "project",
+      "path": "../yakov.ThreadPool/yakov.ThreadPool.csproj",
+      "msbuildProject": "../yakov.ThreadPool/yakov.ThreadPool.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "NLog >= 5.0.4",
-      "NLog.Config >= 4.7.15"
+      "NLog.Config >= 4.7.15",
+      "yakov.ThreadPool >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -134,7 +154,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\University\\СПП\\yakov.SPPLabs\\yakov.ThreadPool\\yakov.ThreadPool.csproj": {
+              "projectPath": "C:\\University\\СПП\\yakov.SPPLabs\\yakov.ThreadPool\\yakov.ThreadPool.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

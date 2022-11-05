@@ -1,7 +1,7 @@
 ﻿using Parallel = yakov.Lab4.Parallel;
 
-//Console.WriteLine("Enter assembly path:");
-//string path = Console.ReadLine();
+Console.WriteLine("Enter assembly path:");
+string path = Console.ReadLine();
 
 //AssemblyLoader assemblyLoader = new();
 //Assembly? loadedAssembly;

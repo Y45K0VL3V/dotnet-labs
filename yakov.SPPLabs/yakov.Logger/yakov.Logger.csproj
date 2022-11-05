@@ -11,4 +11,8 @@
     <PackageReference Include="NLog.Config" Version="4.7.15" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\yakov.ThreadPool\yakov.ThreadPool.csproj" />
+  </ItemGroup>
+
 </Project>

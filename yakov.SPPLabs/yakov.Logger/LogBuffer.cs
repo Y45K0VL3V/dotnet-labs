@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections;
+using System.Diagnostics;
+using yakov.ThreadPool;
 
 namespace yakov.Logger
 {
@@ -11,35 +13,38 @@ namespace yakov.Logger
             Timeout = timeout;
             BufferMaxElements = bufMaxElements;
 
-            _writeTimer = new Timer(new(WriteToFile), _items, 0, Timeout);
+            _writeTimer = new Timer(new(WriteToFileTimer), null, 0, Timeout);
         }
 
-        private readonly Timer _writeTimer;
+        private Mutex _mutex = new();
+        private TaskQueue _threadPool = new(1);
+        private Timer _writeTimer;
         private Queue<string> _items = new();
 
         public string LogFilePath { get; private set; }
         public uint Timeout { get; private set; }
         public uint BufferMaxElements { get; private set; }
 
-        private async void WriteToFile(object? itemsObj)
+        private void WriteToFileTimer(object? obj)
         {
-            _items = new();
-            await Task.Run(() =>
-            {
-                try
-                {
-                    Queue<string>? items = itemsObj as Queue<string>;
-                    if (items == null)
-                        return;
+            WriteToFile();
+        }
 
-                    using (var sw = new StreamWriter(LogFilePath, append: true))
-                    {
-                        while (items.Count > 0)
-                            sw.WriteLine(items.Dequeue());
-                    }
-                }
-                catch { }
-            });
+        private async void WriteToFile()
+        {
+            try
+            {
+                _mutex.WaitOne();
+                Queue<string> itemsToWrite = new(_items);
+                _items = new();
+                _mutex.ReleaseMutex();
+
+                await Task.Run(() =>
+                {
+                    _threadPool.EnqueueTask(() => File.AppendAllLines(LogFilePath, itemsToWrite));
+                });
+            }
+            catch { }
         }
 
         public void Add(string item)
@@ -47,7 +52,7 @@ namespace yakov.Logger
             _items.Enqueue(item);
 
             if (_items.Count == BufferMaxElements)
-                WriteToFile(_items);
+                WriteToFile();
         }
 
     }
