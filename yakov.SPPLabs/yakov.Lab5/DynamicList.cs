@@ -26,7 +26,14 @@ namespace yakov.Lab5
             }
             set
             {
-                _items[index] = value;
+                try
+                {
+                    _items[index] = value;
+                }
+                catch
+                {
+                    throw;
+                }
             }
         }
 
@@ -37,7 +44,7 @@ namespace yakov.Lab5
         public void Add(T item)
         {
             Array.Resize(ref _items, _items.Length + 1);
-            _items[_items.Length] = item;
+            _items[_items.Length - 1] = item;
         }
 
         public void Clear()
@@ -58,7 +65,8 @@ namespace yakov.Lab5
 
         public IEnumerator<T> GetEnumerator()
         {
-            return (IEnumerator<T>)_items.GetEnumerator();
+            var tempEnumerable = _items.OfType<T>();
+            return tempEnumerable.GetEnumerator();
         }
 
         public int IndexOf(T item)
@@ -98,10 +106,17 @@ namespace yakov.Lab5
 
         public void RemoveAt(int index)
         {
-            for (int i = index; i < _items.Length - 1; i++)
-                _items[i] = _items[i + 1];
+            try
+            {
+                for (int i = index; i < _items.Length - 1; i++)
+                    _items[i] = _items[i + 1];
 
-            Array.Resize(ref _items, _items.Length - 1);
+                Array.Resize(ref _items, _items.Length - 1);
+            }
+            catch
+            {
+                throw;
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()
